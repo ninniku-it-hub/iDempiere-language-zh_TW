@@ -65,7 +65,7 @@
   <value column="MsgTip" original="You don't have the privileges">不具備權限</value>
  </row>
  <row id="117" trl="Y">
-  <value column="MsgText" original="Tenant &amp; Organization Data">實體 + 組織數據</value>
+  <value column="MsgText" original="Tenant &amp; Organization Data">實體 + 租戶數據</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="118" trl="Y">
@@ -155,7 +155,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="138" trl="Y">
-  <value column="MsgText" original="Prefer selecting a matching invoice and payment pair and process each at a time.">推薦逐個處理發票與支付單的匹配</value>
+  <value column="MsgText" original="Prefer selecting a matching invoice and payment pair and process each at a time.">請優先選擇相符的發票和付款對，並依次處理每一對。</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="139" trl="Y">
@@ -259,11 +259,11 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="164" trl="Y">
-  <value column="MsgText" original="Calculator">計算器</value>
+  <value column="MsgText" original="Calculator">計算機</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="165" trl="Y">
-  <value column="MsgText" original="Calendar">日歷</value>
+  <value column="MsgText" original="Calendar">日曆</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="166" trl="Y">
@@ -291,7 +291,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="172" trl="Y">
-  <value column="MsgText" original="Charge created">雜費已產生</value>
+  <value column="MsgText" original="Charge created">費用已產生</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="173" trl="Y">
@@ -323,11 +323,11 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="180" trl="Y">
-  <value column="MsgText" original="Close Window">關閉</value>
+  <value column="MsgText" original="Close Window">關閉視窗</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="181" trl="Y">
-  <value column="MsgText" original="Combination">合並</value>
+  <value column="MsgText" original="Combination">合併</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="182" trl="Y">
@@ -339,7 +339,7 @@
   <value column="MsgTip" original="">聯絡人</value>
  </row>
  <row id="184" trl="Y">
-  <value column="MsgText" original="Control Amount differs from Balance">控制金額與余額不同</value>
+  <value column="MsgText" original="Control Amount differs from Balance">控制金額與餘額不符</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="185" trl="Y">
@@ -347,23 +347,23 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="186" trl="Y">
-  <value column="MsgText" original="Converted">本幣金額</value>
+  <value column="MsgText" original="Converted">已兌換</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="187" trl="Y">
-  <value column="MsgText" original="Copied">已覆制</value>
+  <value column="MsgText" original="Copied">已複製</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="188" trl="Y">
-  <value column="MsgText" original="Copy Record">覆制</value>
+  <value column="MsgText" original="Copy Record">複製紀錄</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="189" trl="Y">
-  <value column="MsgText" original="Update copied record and save or ignore">更新已覆制記錄並保存或忽略</value>
+  <value column="MsgText" original="Update copied record and save or ignore">更新複製的記錄並保存或忽略</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="190" trl="Y">
-  <value column="MsgText" original="Could not copy: ">無法覆制：</value>
+  <value column="MsgText" original="Could not copy: ">無法複製：</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="191" trl="Y">
@@ -423,7 +423,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="205" trl="Y">
-  <value column="MsgText" original="Customize">欄目</value>
+  <value column="MsgText" original="Customize">自訂義</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="206" trl="Y">
@@ -451,7 +451,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="212" trl="Y">
-  <value column="MsgText" original="Trace Level">日志級別</value>
+  <value column="MsgText" original="Trace Level">日誌級別</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="213" trl="Y">
@@ -459,7 +459,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="214" trl="Y">
-  <value column="MsgText" original="Delete Record">刪除</value>
+  <value column="MsgText" original="Delete Record">刪除記錄</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="215" trl="Y">
@@ -483,7 +483,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="220" trl="Y">
-  <value column="MsgText" original="Detail record">下級</value>
+  <value column="MsgText" original="Detail record">明細紀錄</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="221" trl="Y">
@@ -523,7 +523,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="230" trl="Y">
-  <value column="MsgText" original="Drill">數據鉆取</value>
+  <value column="MsgText" original="Drill">數據鑽取</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="231" trl="Y">
@@ -555,11 +555,11 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="238" trl="Y">
-  <value column="MsgText" original="Enter text to search for in tree">輸入要搜索的節點，可匹配名字和描述</value>
+  <value column="MsgText" original="Enter text to search for in tree">輸入要在樹狀結構中搜索的文本</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="239" trl="Y">
-  <value column="MsgText" original="Environment">上下文</value>
+  <value column="MsgText" original="Environment">環境</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="240" trl="Y">
@@ -571,15 +571,15 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="242" trl="Y">
-  <value column="MsgText" original="Exit Application">退出應用程序</value>
+  <value column="MsgText" original="Exit Application">退出應用程式</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="243" trl="Y">
-  <value column="MsgText" original="Are you sure you want to exit the application?">確定要退出此應用系統嗎？</value>
+  <value column="MsgText" original="Are you sure you want to exit the application?">確定要退出此應用程式嗎？</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="244" trl="Y">
-  <value column="MsgText" original="Expand all">全部擴展</value>
+  <value column="MsgText" original="Expand all">全部展開</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="245" trl="Y">
@@ -615,31 +615,31 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="253" trl="Y">
-  <value column="MsgText" original="File">文件</value>
+  <value column="MsgText" original="File">檔案</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="254" trl="Y">
-  <value column="MsgText" original="csv - Excel Comma Separated Values file">csv - Excel CSV (逗號分隔) 文件</value>
+  <value column="MsgText" original="csv - Excel Comma Separated Values file">csv - Excel CSV (逗號分隔) 檔案</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="255" trl="Y">
-  <value column="MsgText" original="Cannot create file">無法創建文件</value>
+  <value column="MsgText" original="Cannot create file">無法創建檔案</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="256" trl="Y">
-  <value column="MsgText" original="html - HTML file">html - HTML 文件</value>
+  <value column="MsgText" original="html - HTML file">html - HTML 檔案</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="257" trl="Y">
-  <value column="MsgText" original="Import File Loader">匯入</value>
+  <value column="MsgText" original="Import File Loader">匯入程式</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="258" trl="Y">
-  <value column="MsgText" original="&lt;Select File to Load&gt;">選擇匯入文件</value>
+  <value column="MsgText" original="&lt;Select File to Load&gt;">選擇匯入檔案</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="259" trl="Y">
-  <value column="MsgText" original="Select the file to load matching the Import Format">選擇匹配匯入格式的文件，並加載數據</value>
+  <value column="MsgText" original="Select the file to load matching the Import Format">選擇匹配匯入格式的檔案，並載入數據</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="260" trl="Y">
@@ -647,11 +647,11 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="261" trl="Y">
-  <value column="MsgText" original="Rows in file / loaded and ready to import:">數據加載完成，準備匯入：</value>
+  <value column="MsgText" original="Rows in file / loaded and ready to import:">數據載入完成，準備匯入：</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="262" trl="Y">
-  <value column="MsgText" original="Invalid File Extension">無效的文件擴展名</value>
+  <value column="MsgText" original="Invalid File Extension">無效的副檔名</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="263" trl="Y">
@@ -671,7 +671,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="267" trl="Y">
-  <value column="MsgText" original="Error writing file">寫文件時發生錯誤</value>
+  <value column="MsgText" original="Error writing file">寫檔時發生錯誤</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="268" trl="Y">
@@ -683,7 +683,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="270" trl="Y">
-  <value column="MsgText" original="Lookup Record">查找</value>
+  <value column="MsgText" original="Lookup Record">搜尋</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="271" trl="Y">
