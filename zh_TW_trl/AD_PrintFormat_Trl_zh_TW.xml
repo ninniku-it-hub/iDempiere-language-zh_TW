@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 11_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_TW" table="AD_PrintFormat">
+ <row id="100" trl="Y">
+  <value column="Name" original="Order_Header  ** TEMPLATE **">訂單_表頭 *模板*</value>
+  <value column="Description" original="Standard Order Header">標準訂單頭資訊</value>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="101" trl="Y">
+  <value column="Name" original="Order_LineTax  ** TEMPLATE **">訂單_明細 *模板*</value>
+  <value column="Description" original="Standard Order Line&amp;Tax">標準訂單明細資訊</value>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="102" trl="Y">
+  <value column="Name" original="Invoice_Header  ** TEMPLATE **">發票_表頭 *模板*</value>
+  <value column="Description" original="Standard Invoice Header">標準發票頭資訊</value>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="103" trl="Y">
+  <value column="Name" original="Invoice_LineTax  ** TEMPLATE **">發票_明細稅額 *模板*</value>
+  <value column="Description" original="Standard Invoice Line&amp;Tax Lines">標準發票明細資訊</value>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="104" trl="Y">
+  <value column="Name" original="InOut_Header ** TEMPLATE **">收發單_表頭 *模板*</value>
+  <value column="Description" original="Standard Shipment Header">標準收發單頭資訊</value>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="105" trl="Y">
+  <value column="Name" original="InOut_Line  ** TEMPLATE **">收發單_明細 *模板*</value>
+  <value column="Description" original="Standard Shipment Lines">標準收發單明細資訊</value>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="106" trl="Y">
+  <value column="Name" original="PaySelection_Check  ** TEMPLATE **">付款選擇_支票  *模板*</value>
+  <value column="Description" original="Standard Check with Remittance Info">標準支票帶匯款資訊</value>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="107" trl="Y">
+  <value column="Name" original="PaySelection_Remittance_Lines  ** TEMPLATE **">付款選擇_匯款_明細  *模板*</value>
+  <value column="Description" original="Standard Check/Remittance Lines">標準支票/匯款明細資訊</value>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="108" trl="Y">
+  <value column="Name" original="PaySelection_Remittance  ** TEMPLATE **">付款選擇_匯款  *模板*</value>
+  <value column="Description" original="Standard Remittance Header">標準匯款表頭資訊</value>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="134" trl="Y">
+  <value column="Name" original="Statement of Accounts">賬戶狀況表</value>
+  <value column="Description" original="Statement of Accounts">賬戶狀況表</value>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="139" trl="Y">
+  <value column="Name" original="Project_Header ** TEMPLATE **">項目_表頭 *模板*</value>
+  <value column="Description" original="Standard Project">標準項目表頭資訊</value>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="140" trl="Y">
+  <value column="Name" original="Project_Details ** TEMPLATE **">項目_明細 *模板*</value>
+  <value column="Description" original="Standard Project Detail">標準項目明細資訊</value>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="142" trl="Y">
+  <value column="Name" original="Test Report">測試 Report</value>
+  <value column="Description" original="">Test Report</value>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="143" trl="Y">
+  <value column="Name" original="Test Form">測試 Form</value>
+  <value column="Description" original="">Test Form</value>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="148" trl="Y">
+  <value column="Name" original="RfQResponseLine ** TEMPLATE **">詢價響應_明細 *模板*</value>
+  <value column="Description" original="Standard RfQ Response Line">標準詢價響應明細資訊</value>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="149" trl="Y">
+  <value column="Name" original="RfQResponse ** TEMPLATE **">詢價響應_表頭 *模板*</value>
+  <value column="Description" original="Standard RfQ Response">標準詢價響應表頭資訊</value>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="151" trl="Y">
+  <value column="Name" original="Dunning_Header ** TEMPLATE **">催款單_表頭 *模板*</value>
+  <value column="Description" original="Standard Dunning Letter">標準催款表頭資訊</value>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="152" trl="Y">
+  <value column="Name" original="Dunning_Line ** TEMPLATE **">催款單_明細 *模板*</value>
+  <value column="Description" original="Standard Dunning Letter Lines">標準催款單明細資訊</value>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="153" trl="Y">
+  <value column="Name" original="Inventory Move Hdr (Example)">調撥單_表頭 (例子)</value>
+  <value column="Description" original="Example">例子</value>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="154" trl="Y">
+  <value column="Name" original="Inventory Move Line (Example)">調撥單_明細 (例子)</value>
+  <value column="Description" original="Example">例子</value>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="155" trl="Y">
+  <value column="Name" original="Inventory Physical Line (Example)">庫存盤點_明細 (例子)</value>
+  <value column="Description" original="Example">例子</value>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="156" trl="Y">
+  <value column="Name" original="Inventory Physical Hdr (Example)">庫存盤點_表頭 (例子)</value>
+  <value column="Description" original="Example">例子</value>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="161" trl="Y">
+  <value column="Name" original="Reference List">參考列表</value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="162" trl="Y">
+  <value column="Name" original="Message">消息報告</value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="167" trl="Y">
+  <value column="Name" original="Process">流程報表</value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50000" trl="Y">
+  <value column="Name" original="MRP Review">MRP報告</value>
+  <value column="Description" original="MRP Detail">MRP明細</value>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50001" trl="Y">
+  <value column="Name" original="Manufacturing_Order_Header ** TEMPLATE **">生產工單_表頭 *模板*</value>
+  <value column="Description" original="Manufacturing Order">生產工單表頭資訊</value>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50002" trl="Y">
+  <value column="Name" original="Manufacturing_Order_BOMLine ** TEMPLATE **">生產工單_BOM明細  *模板*</value>
+  <value column="Description" original="Manufacturing Order BOM Line">生產工單BOM明細資訊</value>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50003" trl="Y">
+  <value column="Name" original="Manufacturing Orders Review  ">生產工單報告</value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50004" trl="Y">
+  <value column="Name" original="Manufacturing Orders Review   Copiar registro 4082309">生產工單檢查   **拷貝** 4082309</value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50005" trl="Y">
+  <value column="Name" original="Component Check">子件檢查報告</value>
+  <value column="Description" original="">產品組件的存貨報告</value>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50006" trl="Y">
+  <value column="Name" original="Order Transactions">訂單事務</value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50007" trl="Y">
+  <value column="Name" original="Order Transactions Copiar registro 14306576">訂單事務 *拷貝* 14306576</value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50008" trl="Y">
+  <value column="Name" original="RV_PP_Operation_Activity &amp;Copy Record 4622012" xml:space="preserve"><![CDATA[制造作業活動 &拷貝記錄 4622012]]></value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50009" trl="Y">
+  <value column="Name" original="Operation Activity ** TEMPLATE **">作業活動 *模板*</value>
+  <value column="Description" original="Operation Activity ** TEMPLATE **">作業活動 *模板*</value>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50010" trl="Y">
+  <value column="Name" original="DistributionOrder_Line  ** TEMPLATE **">配送單_明細  *模板*</value>
+  <value column="Description" original="Standard Order Line">標準配送單明細資訊</value>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50011" trl="Y">
+  <value column="Name" original="DistributionOrder_Header  ** TEMPLATE **">配送單_表頭  *模板*</value>
+  <value column="Description" original="Standard Order Header">標準配送單表頭資訊</value>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50012" trl="Y">
+  <value column="Name" original="Product Costing">產品成本</value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50013" trl="Y">
+  <value column="Name" original="Multi Level BOM &amp; Formula Detail">多層BOM明細</value>
+  <value column="Description" original="Multi Level BOM &amp; Formula Detail">多層BOM明細</value>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50014" trl="Y">
+  <value column="Name" original="Asset Disposal Expense Entry Rpt &amp;Copy Record 1500673861" xml:space="preserve"><![CDATA[資產處置費用 &拷貝記錄 1500673861]]></value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50015" trl="Y">
+  <value column="Name" original="Asset Disposal Expense Entry Rpt">資產處置費用</value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50016" trl="Y">
+  <value column="Name" original="Asset Transfer Entry">資產轉移</value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50017" trl="Y">
+  <value column="Name" original="Asset Transfer Entry &amp;Copy Record 733003674" xml:space="preserve"><![CDATA[資產轉移 & 拷貝記錄 733003674]]></value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50018" trl="Y">
+  <value column="Name" original="Asset Split Entry &amp;Copy Record 895559168" xml:space="preserve"><![CDATA[資產拆分 & 拷貝記錄 895559168]]></value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50019" trl="Y">
+  <value column="Name" original="Asset Split Entry">資產拆分</value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50020" trl="Y">
+  <value column="Name" original="Depreciation Expense Entry &amp;Copy Record 1166440766" xml:space="preserve"><![CDATA[折舊費用 &拷貝記錄 1166440766]]></value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50021" trl="Y">
+  <value column="Name" original="Depreciation Expense Entry">折舊費用</value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50022" trl="Y">
+  <value column="Name" original="Asset Depreciation Forecast &amp;Copy Record 1622765813" xml:space="preserve"><![CDATA[資產折舊預估 &拷貝記錄 1622765813]]></value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50023" trl="Y">
+  <value column="Name" original="Asset Depreciation Forecast">資產折舊預估</value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50024" trl="Y">
+  <value column="Name" original="RV_Asset_Parent_Report">資產父級報告</value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50025" trl="Y">
+  <value column="Name" original="RV_Depreciation_Table">折舊報告</value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50026" trl="Y">
+  <value column="Name" original="Spread Report">傳播報告</value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50027" trl="Y">
+  <value column="Name" original="RV_Asset_Depreciation_Method">資產折舊方法</value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50028" trl="Y">
+  <value column="Name" original="RV_Asset_Convention_Rpt">資產轉換報告</value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50029" trl="Y">
+  <value column="Name" original="RV_Depreciation_Calculation_Methods">折舊計算方式</value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50030" trl="Y">
+  <value column="Name" original="RV_Asset_Group_Defaults">資產組賬戶報表</value>
+  <value column="Description" original="">資產組的賬戶設置資訊</value>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50031" trl="Y">
+  <value column="Name" original="Inbound Charge Entry Report">入庫費用報表</value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50032" trl="Y">
+  <value column="Name" original="Forecast Report">預測報表</value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50033" trl="Y">
+  <value column="Name" original="Forecast Report by Period">期間預測報告</value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50037" trl="Y">
+  <value column="Name" original="Manufacturing_Order_Node ** TEMPLATE **">生產工單_工序 *模板*</value>
+  <value column="Description" original="Manufacturing Order Node">生產工單工序</value>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50038" trl="Y">
+  <value column="Name" original="Cost BOM Multi Level Review">BOM成本多層報告</value>
+  <value column="Description" original="Cost BOM Multi Level Review">BOM成本多層視圖</value>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50040" trl="Y">
+  <value column="Name" original="Manufacturing_Order_BOMLine_Component ** TEMPLATE **">生產工單_BOM明細_子件 *模板*</value>
+  <value column="Description" original="Manufacturing Order BOM Line"/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50041" trl="Y">
+  <value column="Name" original="Manufacturing_Order_BOM_Header ** TEMPLATE **">生產工單_BOM_表頭 *模板*</value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50042" trl="Y">
+  <value column="Name" original="Manufacturing_Order_Workflow_Header ** TEMPLATE **">生產工單_工藝路線_表頭 *模板*</value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50043" trl="Y">
+  <value column="Name" original="Manufacturing_Order_Node_Product ** TEMPLATE **">生產工單_工序_產品 *模板*</value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50044" trl="Y">
+  <value column="Name" original="Manufacturing_Order_BOMLine_Packing** TEMPLATE **">生產工單_BOM明細_Packing*模板*</value>
+  <value column="Description" original="Manufacturing Order BOM Line"/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50045" trl="Y">
+  <value column="Name" original="Manufacturing_Order_BOM_Header_Packing ** TEMPLATE **">生產工單_BOM_表頭_Packing *模板*</value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50051" trl="N">
+  <value column="Name" original="Accounting Fact Reconciliation">Accounting Fact Reconciliation</value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="50057" trl="Y">
+  <value column="Name" original="Indented Bill of Material">縮進BOM</value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="200000" trl="Y">
+  <value column="Name" original="BOM Line">BOM明細</value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="200001" trl="Y">
+  <value column="Name" original="Single Level BOM">單層BOM</value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="200002" trl="N">
+  <value column="Name" original="1099 Extract">1099 Extract</value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="200005" trl="Y">
+  <value column="Name" original="Bank Register Report">銀行賬戶報告</value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="200006" trl="Y">
+  <value column="Name" original="Product/Component Where Used">產品/子件被用報告</value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="200007" trl="Y">
+  <value column="Name" original="Simple Fact View">簡單分錄報表</value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="200014" trl="N">
+  <value column="Name" original="Trial Balance Report">Trial Balance Report</value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="200016" trl="N">
+  <value column="Name" original="TestUUDet Print Format">TestUUDet Print Format</value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+ <row id="200017" trl="N">
+  <value column="Name" original="TestUU Print Format">TestUU Print Format</value>
+  <value column="Description" original=""/>
+  <value column="FileNamePattern" original=""/>
+ </row>
+</idempiereTrl>

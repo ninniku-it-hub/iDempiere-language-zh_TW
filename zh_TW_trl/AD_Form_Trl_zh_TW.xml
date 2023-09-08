@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 11_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_TW" table="AD_Form">
+ <row id="100" trl="Y">
+  <value column="Name" original="Generate Invoices (manual)">生成發票 （手動）</value>
+  <value column="Description" original="Select and generate invoices">選擇銷售訂單，生成發票並完成單據</value>
+  <value column="Help" original="Generate Invoices from Orders.  &#10;Select the orders to generate the invoice for." xml:space="preserve"><![CDATA[從篩選後的銷售訂單中選擇生成發票，流程對多個發貨單進行合並開票。<br /><br />
+篩選訂單由訂單的開票規則決定，預設顯示“立即開票”的訂單。“按發貨開票”只有發貨才顯示，“按訂單開票”只有全發貨才顯示。“按開票規則”只有當前日期和訂單日期，開票月天符合條件才顯示。<br /><br />
+開票數量也由訂單的開票規則決定，“立即開票”和“按訂單開票”開具全部訂單數量，“按發貨開票”和“按開票計劃”只會開具發貨數量。<br /><br />
+【註意】最後生成的發票包含2條發貨備註，bug]]></value>
+ </row>
+ <row id="101" trl="Y">
+  <value column="Name" original="Import File Loader">加載匯入文件</value>
+  <value column="Description" original="Load flat Files into import tables">加載待匯入的數據文件到臨時表中</value>
+  <value column="Help" original="The Import File Loader parses the content of a flat file and loads it into import tables. Comments start with a '[' and end with a ']' and are ignored; example: [Some Heading]." xml:space="preserve"><![CDATA[選擇待匯入文件，並指定匯入格式，預覽每行數據是否正確，如果正確，點擊右下角‘OK’按鈕匯入數據到臨時表中。<br />註意：以“[”開始和以“]”結束的註釋會忽略匯入，例如: [我的表頭]。]]></value>
+ </row>
+ <row id="103" trl="Y">
+  <value column="Name" original="Material Transactions">5031 物料交易(收發)</value>
+  <value column="Description" original="Material Transactions">顯示存貨的所有收發事務明細</value>
+  <value column="Help" original="">可透視原始單據，為什麽我不能選擇組織的倉庫？</value>
+ </row>
+ <row id="104" trl="Y">
+  <value column="Name" original="Payment Allocation">支付分配（手動）</value>
+  <value column="Description" original="Allocate invoices and payments">手動分配發票和支付</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="105" trl="Y">
+  <value column="Name" original="Generate Charges">創建雜費</value>
+  <value column="Description" original="Generate Charges from natural accounts">從自然賬戶創建雜費</value>
+  <value column="Help" original="Use the upper portion to create new charges using the general charge accounts.  Use the lower portion to create charges based on the natural account.">使用上半部分創建雜費，基於通用的雜費賬戶。使用下半部分創建雜費，基於自然賬戶。</value>
+ </row>
+ <row id="106" trl="Y">
+  <value column="Name" original="Payment Print/Export">打印付款選擇</value>
+  <value column="Description" original="Print or export your payments">打印付款選擇</value>
+  <value column="Help" original="">打印或者導出已生成的付款選擇</value>
+ </row>
+ <row id="107" trl="Y">
+  <value column="Name" original="Payment Selection (manual)">付款選擇（手動）</value>
+  <value column="Description" original="Manual Payment Selection">手動選擇應付發票，創建付款選擇</value>
+  <value column="Help" original="Select vendor invoices for payment. If you don't see an invoice, make sure that it is not included in a different (nprocessed) Payment Selection.">選擇應付發票創建付款選擇。如果沒有找到發票，請確保它尚未包含在未處理的付款選擇中。</value>
+ </row>
+ <row id="108" trl="Y">
+  <value column="Name" original="Matching PO-Receipt-Invoice">匹配採購-收貨-發票</value>
+  <value column="Description" original="Match Purchase Orders, Receipts, Vendor Invoices">匹配採購訂單, 收貨單, 供應商發票</value>
+  <value column="Help" original="Make sure that the Receipts and Invoices are processed. If you want to match partial shipment, make sure that &quot;Same Quantity&quot; is not selected.">確認收貨單和發票的相互匹配關系。 如果只希望匹配部分的發貨情況，請確保不選擇"相同數量"選項。</value>
+ </row>
+ <row id="111" trl="Y">
+  <value column="Name" original="SQL Process">執行 SQL</value>
+  <value column="Description" original="Process SQL Statements">執行 SQL DDL 語句</value>
+  <value column="Help" original="Process SQL DDL Statements">僅支持SQL DLL語句</value>
+ </row>
+ <row id="112" trl="Y">
+  <value column="Name" original="Merge Entities">合並記錄</value>
+  <value column="Description" original="Merge From Entity to To Entity - Delete From">從一個實體合並到另一個實體 - 刪除原實體</value>
+  <value column="Help" original="&lt;i&gt;Dangerous - Please are aware of what you are doing!&lt;/i&gt;&#10;All instances of the From entity (e.g. Customer A) are changed to the To entity (e.g. Customer B). &#10;The From entity (e.g. Customer A) is deleted. &#10;&lt;p&gt;&lt;b&gt;There is NO undo nor trace !  Please do a backup first&lt;/b&gt; Please be aware that you may be changing history records (e.g. invoices, etc.) ! &lt;/p&gt;&#10;&lt;p&gt;&lt;b&gt;Side effects:&lt;/b&gt; Merging Products are likely to distort product costs; Merging Business Partners may result in incorrect open item balance. Check with support on remedies.&lt;/p&gt;&#10;&lt;p&gt;&lt;b&gt;Restrictions:&lt;/b&gt; Accounting and Inventory conflicts are not resolved in this version.&lt;/p&gt;" xml:space="preserve"><![CDATA[<i>危險 - 請務必清楚當前正在執行的操作！該操作無法撤消，也無法追溯！如果繼續，請提前做好備份</i>
+源對象（例如客戶A）的所有實例都會被更改到目標個體（例如客戶B），源對象將被刪除。<br />
+負面影響：合並產品可能導致產品成本不正確；合並業務夥伴可能導致未清余額不正確；可能更改歷史記錄 (例如發票等)。<br />
+當前限制：會計和庫存沖突在當前版本中尚不能解決。<br />
+【請聯系技術支持，以獲得正確的結果】。]]></value>
+ </row>
+ <row id="113" trl="Y">
+  <value column="Name" original="POS">POS 終端</value>
+  <value column="Description" original="Point Of Sales Terminal">POS 銷售終端</value>
+  <value column="Help" original="Enter Transactions via a POS Terminal.  Automatically, scans or credit card swipes are recongized.">通過POS終端機執行處理事務，掃描槍或信用卡讀卡器將會被自動偵測到</value>
+ </row>
+ <row id="114" trl="Y">
+  <value column="Name" original="BOM Drop">物料清單展開</value>
+  <value column="Description" original="Drop (expand) Bill of Materials">展開物料清單</value>
+  <value column="Help" original="Drop the extended Bill of Materials into an Order, Invoice, etc.  The documents need to be in a Drafted stage.  Make sure that the items included in the BOM are on the price list of the Order, Invoice, etc. as otherwise the price will be zero!">將物料清單展開到訂單、發票等中。單據需要處於草案階段。確保 BOM 中包含的條目位於訂單、發票等的價格表上，否則價格將為零！</value>
+ </row>
+ <row id="115" trl="Y">
+  <value column="Name" original="Tree Maintenance">樹管理</value>
+  <value column="Description" original="Maintain Trees">維護樹節點</value>
+  <value column="Help" original="View and change trees. Maintain the entries in their specific Windows.">查看和更改樹的節點。</value>
+ </row>
+ <row id="116" trl="Y">
+  <value column="Name" original="Workflow Editor">工作流程編輯器</value>
+  <value column="Description" original="Edit Workflows">編輯工作流成</value>
+  <value column="Help" original="Edit the graphical layout of workflows">編輯工作流成的圖片化布局</value>
+ </row>
+ <row id="117" trl="Y">
+  <value column="Name" original="Workflow Activities">工作流成活動</value>
+  <value column="Description" original="My active workflow activities">已啟用的工作流程</value>
+  <value column="Help" original="View active worflow activities">查看啟用的工作流程</value>
+ </row>
+ <row id="118" trl="Y">
+  <value column="Name" original="Archive Viewer">歸檔查看器</value>
+  <value column="Description" original="View automatically archived Documents">查看自動歸檔的單據</value>
+  <value column="Help" original="Depending on the Tenant Automatic Archive Level documents and reports are saved and available for view. In the Report Viewer you can manually archive Documents or Reports.  You can only view archives, if you have access to the original document.">依賴於實體自動歸檔級別，單據和報表被保存起來以供查看。在報表查看器中，可手工歸檔單據或報表。僅當有權訪問原始單據時，方可查看歸檔</value>
+ </row>
+ <row id="119" trl="Y">
+  <value column="Name" original="Performance Indicators">績效儀表盤</value>
+  <value column="Description" original="View Performance Indicators">查看績效儀表盤</value>
+  <value column="Help" original="View all Performance Indicators and Goals">查看全部績效指標的儀表盤</value>
+ </row>
+ <row id="120" trl="Y">
+  <value column="Name" original="Product Attribute Grid">產品屬性網格</value>
+  <value column="Description" original="Maintain Products with Attributes in a Table Grid">在表格中維護帶屬性的產品</value>
+  <value column="Help" original="Select one or two attributes if a Product Attribute and display/maintain products in a row or table grid.">選擇一個或兩個屬性，如果產品屬性與顯示/維護產品在同一行或表格中</value>
+ </row>
+ <row id="53001" trl="Y">
+  <value column="Name" original="BOM &amp; Formula Info">BOM 資訊</value>
+  <value column="Description" original="Shows in two different panels the parent-component relationship for the product entered in the Product field.">在二個窗口中顯示產品的父子組件關系</value>
+  <value column="Help" original="The BOM &amp; Formula Review option menu shows in two different panels the parent-component relationship for the product entered in the Product field.&#10;&#10;You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.&#10;&#10;When you need to consult an implosion, click the implosion check box and enter the component you wish to consult and tick the Implosion check box.&#10;&#10;You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.&#10;&#10;The left panel shows the BOM hierarchies in a tree form. The right panel shows the information connected with the BOM for every product in it"/>
+ </row>
+ <row id="53002" trl="Y">
+  <value column="Name" original="Product Configuration BOM">BOM 到訂單</value>
+  <value column="Description" original="This form let create a product configure with multy level using options and variants">設置參數，將BOM子件發送到訂單</value>
+  <value column="Help" original="A configurable Bill of Material (CBOM) is used by industries that have multiple options and highly configurable products.&#10;&#10;The CBOM is used to dynamically create &quot;end-items&quot; that a company sells. The benefit of using CBOM structure is it reduces the work-effort needed to maintain product structures. The configurable BOM is most frequently driven by &quot;configurator&quot; software, however it can be enabled manually (manual maintenance is infrequent because its unwieldy to manage the number of permutaions and combinations of possible configurations) The development of the CBOM is dependent on having a Modular BOM structure in place (see Modular BOM). The Modular BOM structure provides the assemblies/sub-systems that can be selected to &quot;configure&quot; an end-item.">一個可配置的物料清單用於有多個選項和高度可配產品的行業。 
+ 可配置的物料清單用於動態創建公司銷售的成品。使用可配置的物料清單結構的好處是它降低了維護產品結構的工作量。該清單通常使用一個“配置器”軟件來管理，此外它也可以啟用手動方式（手動維護並不常用因為這很難管理所有可行配置的排列與組合的數量）。可配置物料清單的開發依賴於其組成的模塊物料清單結構（參考模塊物料清單結構）。模塊物料清單結構提供了用於配置成品的配件和子系統</value>
+ </row>
+ <row id="53003" trl="Y">
+  <value column="Name" original="MRP Info">MRP 資訊</value>
+  <value column="Description" original="Show the detail of MRP calculation">顯示 MRP 計算明細</value>
+  <value column="Help" original="Show the detail of MRP calculation"/>
+ </row>
+ <row id="53004" trl="Y">
+  <value column="Name" original="Planned Order Approval ">計劃訂單審核 </value>
+  <value column="Description" original="A planned manufacturing order is a manufacturing order suggested by the MRP process and contains its quantity and its release and promise dates.">計劃生產單是由MRP過程建議產生的生產單,它包含訂單生產數量和訂單的生成日期及定產承諾產出日期</value>
+  <value column="Help" original="A planned manufacturing order is a manufacturing order suggested by the MRP process and contains its quantity and its release and promise dates. when you approve a manufacturing planned order you convert it in a manufacturing order with the status of In Process.&#10;&#10;When you approve a planned order you are telling the system that the manufacturing order is ready to start its process with the approval you change the order status from Draft to In Process.">計劃生產單是MRP運算後給出的建議生產單，它包含了物料需求數量以及出貨保證的日期。當你同意計劃生產單，你可以把它的狀態改成"處理中"，這時它就轉換成了真正的生產單了</value>
+ </row>
+ <row id="53005" trl="Y">
+  <value column="Name" original="CRP Info">CRP 資訊</value>
+  <value column="Description" original="It shows graphically of the required and available time for each manufacturing resource.">它以圖形方式顯示每個生產資源的需求和可用時間</value>
+  <value column="Help" original="It shows graphically of the required and available time for each manufacturing resource."/>
+ </row>
+ <row id="53006" trl="Y">
+  <value column="Name" original="Resource Load View">資源負載視圖</value>
+  <value column="Description" original="It shows graphically of the required and available time for each manufacturing resource.">它以圖形方式顯示每個生產資源的需求和可用時間</value>
+  <value column="Help" original="It shows graphically of the required and available time for each manufacturing resource."/>
+ </row>
+ <row id="53007" trl="Y">
+  <value column="Name" original="Order Receipt &amp; Issue">工單收發物料</value>
+  <value column="Description" original="Order Receipt &amp; Issue">生產單入庫與發料</value>
+  <value column="Help" original="The form shows at the upper side static information around the product and the manufacturing resource where it has to be made, it also shows a summary of the quantities to be controlled in the MO such as the Original and delivered quantities and the Quantity to deliver for the MO up to date.&#10;&#10;If the production process requires production in batch, then the Qty Batchs shows the Number of batches the shop floor needs to do and the Qty Batch Size contains the size of every batch to be produced.&#10;&#10;&#10;If you want to issue the MO components before you receive the finished product you should tick the checkbox Is Delivery, this case is recommended when you have a long to medium lead time and you want to have the inventory quantities as reliable as possible at every moment.&#10;&#10;If you have small lead time and you wish to save clerk time then you must tick Is Backflush checkbox and you will receive the finished product at the same time you issue automatically the components&#10;&#10;The Backflush Group field is used when you want to issue just components belonging to this group. (This characteristic could not be included in the current version).&#10;&#10;At the lower part of the window you can find the list of every MO component, this can be modified according with the real products and quantities given to the shop floor.&#10;&#10;The quantities to be issued are selected with the checkbox at the first column of the list of components. If the actual quantity is different from the standard quantity showed in the column Qty to deliver you should edit this field to enter the right quantity to be issued.&#10;&#10;Finally a message box asks if you want to close the OM document, you should click the ok button if this MO does not have any more transactions and has to be closed.&#10;&#10;">上面的表單顯示關於產品以及所需生產資料的相關資訊，同時也顯示生產單中的數量統計如原始數量和交付數量以及最新的生產單的交付數量。
+ 
+ 如果生產過程需要批量生產，那麽生產批次數量顯示車間需要加工的批次數，而每批生產數量則顯示每一批次需要生產的數量。
+ 
+ 如果你想要在完成產品之前發布生產單中的配件，應該選擇是否交付覆選框。這是一個推薦的做法當你有較長或者比較長的生產準備階段，並且你想要一個隨時可靠的庫存數量時。
+ 
+ 如果你的生產準備階段很短，並且你希望節省員工時間，那麽你應該選中是否回沖覆選框，這時你將會在自動發布配件的同時完成產品。
+ 
+ 回沖分組選項會在你希望僅完成該分組下的配件時用到。（該特性還無法包含在當前版本中）
+ 
+ 在窗口的下面你可以看到每一個生產單配件的列表，你可以更加車間裏真實的產品和數量修改改列表。
+ 
+ 配件列表第一列中的覆選框可以選中需要發布配件的數量。如果真實數量與列表中要交付的數量不一致，你應該修改成正確的發布數量。
+
+  最後一個消息框詢問你是否想要關閉生產單文檔，如果生產單都已處理完並且需要關閉時你應該點擊確定按鈕
+ </value>
+ </row>
+ <row id="53008" trl="Y">
+  <value column="Name" original="Generate Movement Manual">生成調撥單（手動）</value>
+  <value column="Description" original="Generate Movement to a Order Distribution">產生一個配送單的調撥單</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53009" trl="Y">
+  <value column="Name" original="Payroll Action Notice">薪酬發放提醒</value>
+  <value column="Description" original="Payroll Action Notice let entry the events that happend with any Employee">薪酬發放提醒會在薪酬發放日提醒任意職員</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53012" trl="Y">
+  <value column="Name" original="Material Receipt Distribution Order">收貨配送單</value>
+  <value column="Description" original="Material Receipt Distribution Order">收貨配送單</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53013" trl="Y">
+  <value column="Name" original="Manufacturing Workflow Editor">工藝流程編輯器</value>
+  <value column="Description" original="Edit Manufacturing Workflows">編輯工藝流程</value>
+  <value column="Help" original="Edit the graphical layout of manufacturing workflows">編輯制造工藝的圖形布局</value>
+ </row>
+ <row id="53016" trl="Y">
+  <value column="Name" original="Accounting Fact Reconciliation (manual)">總賬核銷（手動）</value>
+  <value column="Description" original="">核對鉤稽清算賬戶</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53017" trl="Y">
+  <value column="Name" original="BOM Viewer">BOM 查看器</value>
+  <value column="Description" original="Shows the parent-component relationship for the product entered in the Product field.">查看產品的BOM資訊</value>
+  <value column="Help" original="Selecting a product will display a hierarchy of components and sub-BOMs for that product.&#13;&#10;&#13;&#10;Selecting the &quot;Where Used&quot; check box will display the BOMs that this product is used in.">選擇一個產品後會顯示該產品所需的配件及其物料清單的一個層次結構。
+
+選擇“用於該產品”覆選框之後，將顯示該產品用到的物料清單</value>
+ </row>
+ <row id="200000" trl="Y">
+  <value column="Name" original="Setup Wizard">初始化向導</value>
+  <value column="Description" original="">實體初始化向導</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200001" trl="Y">
+  <value column="Name" original="Reset Password">重置密碼</value>
+  <value column="Description" original="Reset Password">重置密碼</value>
+  <value column="Help" original="">必須擁有該用戶的舊密碼才可以修改。</value>
+ </row>
+ <row id="200002" trl="Y">
+  <value column="Name" original="Report Wizard">報表</value>
+  <value column="Description" original="Report Wizard">報表</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200005" trl="Y">
+  <value column="Name" original="Tab Editor">分頁編輯器</value>
+  <value column="Description" original="">可視化的分頁布局編輯器</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200006" trl="Y">
+  <value column="Name" original="Bank Statement Create From Batch">從批量支付創建對賬單</value>
+  <value column="Description" original="">從批量支付創建對賬單</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200008" trl="Y">
+  <value column="Name" original="Captured Process Parameter">獲取流程參數</value>
+  <value column="Description" original="">獲取流程的參數</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200009" trl="Y">
+  <value column="Name" original="Compare Field Suggestion">比較欄位詞條建議</value>
+  <value column="Description" original="Review field changes for label, descriptipn and help">審核欄位標簽、描述和幫助的詞條修改建議</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200010" trl="Y">
+  <value column="Name" original="Compare Context Help Suggestion">比較上下文幫助建議</value>
+  <value column="Description" original="Review changes for context help">審核上下文幫助的詞條修改建議</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200011" trl="N">
+  <value column="Name" original="idempiereMonitor">idempiereMonitor</value>
+  <value column="Description" original="Form to configure access to /idempiereMonitor - do not add to menu">Form to configure access to /idempiereMonitor - do not add to menu</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200012" trl="N">
+  <value column="Name" original="Apache Felix Web Console">Apache Felix Web Console</value>
+  <value column="Description" original="Form to configure access to /osgi/system/console - do not add to menu">Form to configure access to /osgi/system/console - do not add to menu</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200015" trl="N">
+  <value column="Name" original="Plugin Manager">Plugin Manager</value>
+  <value column="Description" original="Plugin Manager">Plugin Manager</value>
+  <value column="Help" original="Plugin Manager">Plugin Manager</value>
+ </row>
+ <row id="200016" trl="N">
+  <value column="Name" original="Add Authorization Mail Account">Add Authorization Mail Account</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200017" trl="N">
+  <value column="Name" original="Register MFA">Register MFA</value>
+  <value column="Description" original="Register a multi-factor authentication mechanism">Register a multi-factor authentication mechanism</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200018" trl="N">
+  <value column="Name" original="SQL Query">SQL Query</value>
+  <value column="Description" original="Process SQL Queries">Process SQL Queries</value>
+  <value column="Help" original="Process SQL Queries">Process SQL Queries</value>
+ </row>
+</idempiereTrl>

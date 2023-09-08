@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 11_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_TW" table="AD_Process_Para">
+ <row id="133" trl="Y">
+  <value column="Name" original="Warehouse">倉庫</value>
+  <value column="Description" original="Storage Warehouse and Service Point">存貨地點或服務點。</value>
+  <value column="Help" original="The Warehouse identifies a unique Warehouse where products are stored or Services are provided.">倉庫屬於財務核算組織，而不是部門。</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="134" trl="Y">
+  <value column="Name" original="Movement Type">事務類型</value>
+  <value column="Description" original="Method of moving the inventory">缺省的五種出入庫事務。</value>
+  <value column="Help" original="The Movement Type indicates the type of movement (in, out, to production, etc)" xml:space="preserve"><![CDATA[1、收貨單、發貨單<br />
+2、移庫單<br />
+3、庫存調整單（盤庫、內部領用）<br />
+4、項目投放單<br />
+5、生產工單（簡單拆解）
+]]></value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="139" trl="Y">
+  <value column="Name" original="Product">Product</value>
+  <value column="Description" original="Product, Service, Item">產品， 服務， 物品</value>
+  <value column="Help" original="Identifies an item which is either purchased or sold in this organization."/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="161" trl="Y">
+  <value column="Name" original="Business Partner ">業務夥伴</value>
+  <value column="Description" original="Identifies a Business Partner">標識一個業務夥伴</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson"/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="163" trl="Y">
+  <value column="Name" original="Business Partner ">業務夥伴</value>
+  <value column="Description" original="Identifies a Business Partner">標識一個業務夥伴</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson"/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="172" trl="Y">
+  <value column="Name" original="Business Partner ">業務夥伴</value>
+  <value column="Description" original="Identifies a Business Partner">標識一個業務夥伴</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson"/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="174" trl="Y">
+  <value column="Name" original="Business Partner ">業務夥伴</value>
+  <value column="Description" original="Identifies a Business Partner">標識一個業務夥伴</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson"/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="176" trl="Y">
+  <value column="Name" original="Business Partner ">業務夥伴</value>
+  <value column="Description" original="Identifies a Business Partner">標識一個業務夥伴</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson"/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="178" trl="Y">
+  <value column="Name" original="Business Partner ">業務夥伴</value>
+  <value column="Description" original="Identifies a Business Partner">標識一個業務夥伴</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson"/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="179" trl="Y">
+  <value column="Name" original="Product Category">產品類別</value>
+  <value column="Description" original="Category of a Product">產品類別</value>
+  <value column="Help" original="Identifies the category which this product belongs to.  Product categories are used for pricing and selection."/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="180" trl="Y">
+  <value column="Name" original="Product">Product</value>
+  <value column="Description" original="Product, Service, Item">產品， 服務， 物品</value>
+  <value column="Help" original="Identifies an item which is either purchased or sold in this organization."/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="189" trl="Y">
+  <value column="Name" original="Product Category">產品類別</value>
+  <value column="Description" original="Category of a Product">產品類別</value>
+  <value column="Help" original="Identifies the category which this product belongs to.  Product categories are used for pricing and selection."/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="190" trl="Y">
+  <value column="Name" original="Business Partner ">業務夥伴</value>
+  <value column="Description" original="Identifies a Business Partner">標識一個業務夥伴</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson"/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="223" trl="Y">
+  <value column="Name" original="Tenant">企業集團</value>
+  <value column="Description" original="Tenant for this installation.">安裝ERP的企業集團</value>
+  <value column="Help" original="A Tenant is a company or a legal entity. You cannot share data between Tenants."/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="225" trl="Y">
+  <value column="Name" original="Tenant">企業集團</value>
+  <value column="Description" original="Tenant for this installation.">安裝ERP的企業集團</value>
+  <value column="Help" original="A Tenant is a company or a legal entity. You cannot share data between Tenants."/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="227" trl="Y">
+  <value column="Name" original="Delete existing Accounting Entries">刪除已存在的會計分錄</value>
+  <value column="Description" original="The selected accounting entries will be deleted!  DANGEROUS !!!">所選的會計分錄將被刪除!  危險 !!!</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="233" trl="Y">
+  <value column="Name" original="Pricelist Version">價格表版本</value>
+  <value column="Description" original="Only used if Price List is used to set future/standard cost price">只使用如果價格表用來設置未來/標準成本價格</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="240" trl="Y">
+  <value column="Name" original="Business Partner ">業務夥伴</value>
+  <value column="Description" original="Identifies a Business Partner">標識一個業務夥伴</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson"/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="241" trl="Y">
+  <value column="Name" original="Product">Product</value>
+  <value column="Description" original="Product, Service, Item">產品， 服務， 物品</value>
+  <value column="Help" original="Identifies an item which is either purchased or sold in this organization."/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="302" trl="Y">
+  <value column="Name" original="Overwrite Payment Rule">覆蓋付款規則</value>
+  <value column="Description" original="Overwrite how to pay the invoice">覆蓋如何支付發票</value>
+  <value column="Help" original="The Payment Rule indicates how the incoice will be settled - you can overwrite the value from the invoice.">付款規則指此發票會如何處置，你可以在發票覆蓋該值</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="315" trl="Y">
+  <value column="Name" original="From User">聯絡人</value>
+  <value column="Description" original="Send EMail from user">內部或業務夥伴的聯絡人</value>
+  <value column="Help" original="The email is sent from the user selected - otherwise it is sent from the request email address of the tenant">標識內部或業務夥伴的聯絡人。</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="452" trl="Y">
+  <value column="Name" original="Maintenance Mode">維護模式</value>
+  <value column="Description" original="Language Maintenance Mode">語言維護模式</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="467" trl="Y">
+  <value column="Name" original="Existing Organization">目標組織</value>
+  <value column="Description" original="Organizational entity within tenant - set to empty if you want to create a new organization">鏈接到的目標組織，如果你要鏈接到一個新組織，則置為空</value>
+  <value column="Help" original="An organization is a unit of your tenant or legal entity - examples are store, department. You can share data between organizations.">組織是實體或組織的一個單位 - 例如倉庫、部門，你可以在組織間共享數據。</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="469" trl="Y">
+  <value column="Name" original="Limit Access to Role">角色權限</value>
+  <value column="Description" original="If no Role is selected, grant access to all (non-manual) roles of the Tenant">新組織的可訪問角色</value>
+  <value column="Help" original="The Role determines security and access a user who has this Role will have in the System.">指定可訪問新組織的角色，如果留空，則所有（非手動）角色可訪問該新建組織。</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="493" trl="Y">
+  <value column="Name" original="New User/Contact">聯絡人</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">內部或業務夥伴的聯絡人</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">標識內部或業務夥伴的聯絡人。</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="494" trl="Y">
+  <value column="Name" original="New Workflow Responsible">新工作流職責</value>
+  <value column="Description" original="Responsible for Workflow Execution">工作流執行的負責人</value>
+  <value column="Help" original="The ultimate responsibility for a workflow is with an actual user. The Workflow Responsible allows to define ways to find that actual User.">為工作流最終負責的是實際的用戶。工作流負責人允許定義找到該實際用戶的方式</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="496" trl="Y">
+  <value column="Name" original="New User/Contact">聯絡人</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">內部或業務夥伴的聯絡人</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">標識內部或業務夥伴的聯絡人。</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="497" trl="Y">
+  <value column="Name" original="New Workflow Responsible">新工作流職責</value>
+  <value column="Description" original="Responsible for Workflow Execution">工作流執行的負責人</value>
+  <value column="Help" original="The ultimate responsibility for a workflow is with an actual user. The Workflow Responsible allows to define ways to find that actual User.">為工作流最終負責的是實際的用戶。工作流負責人允許定義找到該實際用戶的方式</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="523" trl="Y">
+  <value column="Name" original="Default Sales Rep">催款人</value>
+  <value column="Description" original="If not defined on Business Partner Level">如果業務夥伴未指定銷售代表，手工選擇催款人，與單據的銷售代表區別</value>
+  <value column="Help" original="">如果業務夥伴未指定銷售代表，手工選擇催款人，與單據的銷售代表不同</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="524" trl="Y">
+  <value column="Name" original="Dunning Currency">發票貨幣</value>
+  <value column="Description" original="Currency to create Dunning Letters">發票的貨幣，假設支付單與發票貨幣一致</value>
+  <value column="Help" original="">發票的貨幣，假設支付單與發票貨幣一致</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="50008" trl="Y">
+  <value column="Name" original="IMAP Password">IMAP 密碼</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="50009" trl="Y">
+  <value column="Name" original="Request Folder">請求文件夾</value>
+  <value column="Description" original="After take email form inbox folder, and process it success, email will move to this folder">請求郵件從收件箱文件夾接收，成功處理後，移動到該文件夾</value>
+  <value column="Help" original="folder can define as hierarchy, use &quot;\&quot; to separate folder. example customer\vietnam&#10;will read email from folder vietnam under folder customer&#10;after take email form inbox folder, and process it success, email will move to this folder">文件夾使用“\”來表示層級。比如：“客戶\某某公司”。郵件將從收件夾移動到指定的請求郵件文件夾。</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="50010" trl="Y">
+  <value column="Name" original="Inbox Folder">收件文件夾</value>
+  <value column="Description" original="Mail folder, where process will take email and make request">接收郵件，待生成請求的文件夾</value>
+  <value column="Help" original="folder can define as hierarchy, use &quot;\&quot; to separate folder. example customer\vietnam&#10;will read email from folder vietnam under folder customer">文件夾使用“\”來表示層級。比如：“客戶”。</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="50011" trl="Y">
+  <value column="Name" original="Error Folder">錯誤文件夾</value>
+  <value column="Description" original="Mail folder to push unsuccess email  ">發送不成功的郵件文件夾</value>
+  <value column="Help" original="folder can define as hierarchy, use &quot;\&quot; to separate folder. example customer\error\vietnam&#10;will puss email can't process to folder vietnam under folder error under folder customer">文件夾使用“\”來表示層級。比如：“客戶\失敗”。</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="50019" trl="Y">
+  <value column="Name" original="Shipment Date">發貨日期</value>
+  <value column="Description" original="Date printed on shipment">發貨單打印的日期</value>
+  <value column="Help" original="The Shipment Date indicates the date printed on the shipment.">裝運日期指裝運單上的打印日期</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="53011" trl="N">
+  <value column="Name" original="Print Unprocessed Entries Only">Print Unprocessed Entries Only</value>
+  <value column="Description" original="Print the unprocessed (unprinted) entries of the dunning run only.">Print the unprocessed (unprinted) entries of the dunning run only.</value>
+  <value column="Help" original="Print the unprocessed (unprinted) entries of the dunning run only. This allows you to reprint only certain dunning entries.">Print the unprocessed (unprinted) entries of the dunning run only. This allows you to reprint only certain dunning entries.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="53025" trl="Y">
+  <value column="Name" original="Purchase Price List Version">採購價格表版本</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="53030" trl="Y">
+  <value column="Name" original="New Product">新產品</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="53032" trl="Y">
+  <value column="Name" original="Action">動作</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="53066" trl="Y">
+  <value column="Name" original="Is Print Pack &amp; Tools List">打印工具/包裝單</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="53068" trl="Y">
+  <value column="Name" original="Is Print Pick List">打印揀貨清單</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="53069" trl="Y">
+  <value column="Name" original="Is Print Workflow">打印工藝路線</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="53127" trl="Y">
+  <value column="Name" original="Generate Fields">生成欄位</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="53131" trl="Y">
+  <value column="Name" original="Scripts Path">腳本路徑</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="53142" trl="Y">
+  <value column="Name" original="Includes only the Tabs that Insert records">只包含新增記錄的分頁</value>
+  <value column="Description" original="Generated Export Format for the Tabs with Insert Record is Yes">為新增記錄分頁創建導出格式：是</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="53143" trl="Y">
+  <value column="Name" original="Includes only the mandatory columns">只包含必填欄位</value>
+  <value column="Description" original="Generated an Export Format Line  if the column is mandatory ">如果此欄位必填，創建一個導出格式行 </value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="53219" trl="Y">
+  <value column="Name" original="Based in DRP Demand">基於 DRP 需求</value>
+  <value column="Description" original="Based in DRP Demand">基於 DRP 需求</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="53232" trl="Y">
+  <value column="Name" original="Bank Account From">從...銀行存款</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="53233" trl="Y">
+  <value column="Name" original="Bank Account To">到...銀行存款</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="53243" trl="Y">
+  <value column="Name" original="Valid from">有效起始</value>
+  <value column="Description" original="Valid from including this date (first day)">有效起始日期, 包括當日 (第一天)</value>
+  <value column="Help" original="The Valid From date indicates the first day of a date range">有效起始日期表示日期範圍的第一天</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="53246" trl="Y">
+  <value column="Name" original="Bank Account From">匯出賬戶</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="53247" trl="Y">
+  <value column="Name" original="Bank Account To">匯入賬戶</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="53263" trl="Y">
+  <value column="Name" original="Account Date">記賬日期</value>
+  <value column="Description" original="Optional account date range">可選記賬日期範圍</value>
+  <value column="Help" original="Only documents within this date range which are also in open periods will be reset.">只有此日期範圍內、並且處於開放期間的文件才會被重置</value>
+  <value column="Placeholder" original="From">From</value>
+  <value column="Placeholder2" original="To">To</value>
+ </row>
+ <row id="53282" trl="Y">
+  <value column="Name" original="Tenant Name">實體名稱</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="53284" trl="Y">
+  <value column="Name" original="Administrative User Name">管理員用戶名</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="53285" trl="Y">
+  <value column="Name" original="Normal User Name">普通用戶名</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="53289" trl="Y">
+  <value column="Name" original="City Name">城市名稱</value>
+  <value column="Description" original="">可直接輸入城市名稱</value>
+  <value column="Help" original="">區域列表無法找到目標城市，可直接輸入城市名稱</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="53291" trl="Y">
+  <value column="Name" original="BP Accounting">業務夥伴維度</value>
+  <value column="Description" original="Use BP accounting dimension">使用業務夥伴維度</value>
+  <value column="Help" original="Define if this tenant will use business partner accounting dimension.  This can be changed later in Accounting Schema window of the tenant.">若該實體使用業務夥伴科目維度，請定義該值。它可以在此實體的會計科目表窗口修改</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="53292" trl="Y">
+  <value column="Name" original="Product Accounting">產品維度</value>
+  <value column="Description" original="Use Product accounting dimension">使用產品維度</value>
+  <value column="Help" original="Define if this tenant will use product accounting dimension.  This can be changed later in Accounting Schema window of the tenant.">若該實體使用產品科目維度，請定義該值。它可以在此實體的會計科目表窗口修改</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="53293" trl="Y">
+  <value column="Name" original="Project Accounting">項目維度</value>
+  <value column="Description" original="Use Project accounting dimension">使用項目維度</value>
+  <value column="Help" original="Define if this tenant will use project accounting dimension.  This can be changed later in Accounting Schema window of the tenant.">若該實體使用項目科目維度，請定義該值。它可以在此實體的會計科目表窗口修改</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="53294" trl="Y">
+  <value column="Name" original="Campaign Accounting">營銷活動維度</value>
+  <value column="Description" original="Use Campaign accounting dimension">使用營銷活動維度</value>
+  <value column="Help" original="Define if this tenant will use campaign accounting dimension.  This can be changed later in Accounting Schema window of the tenant.">若該實體使用競標科目維度，請定義該值。它可以在此實體的會計科目表窗口修改</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="53295" trl="Y">
+  <value column="Name" original="Sales Region Accounting">銷售區域維度</value>
+  <value column="Description" original="Use Sales Region accounting dimension">使用銷售區域維度</value>
+  <value column="Help" original="Define if this tenant will use sales region accounting dimension.  This can be changed later in Accounting Schema window of the tenant.">若該實體使用銷售區域科目維度，請定義該值。它可以在此實體的會計科目表窗口修改</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="53296" trl="Y">
+  <value column="Name" original="Chart of Accounts File">科目表文件</value>
+  <value column="Description" original="Location of the chart of accounts to be used with this tenant.  At this stage just the default accounts will be created.">此實體使用會計科目表文件的存放位置。</value>
+  <value column="Help" original="">【註意】在本階段，只會匯入系統缺省賬戶所對應的科目。如果要匯入所有會計科目，需要從[系統-數據-匯入-科目表]位置重新匯入其他科目。</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="53314" trl="Y">
+  <value column="Name" original="Full rebuild">重建所有期間數據</value>
+  <value column="Description" original="Delete all existing summary data and recalculate.">無論上次重算時間，刪除所有存在的匯總數據並重新插入計算結果。</value>
+  <value column="Help" original="If not selected, only those periods with recently posted accounting facts will be recalculated.">如果不選擇，上次重算時間以前的歷史數據不參與計算，只計算最近的過賬數據。</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="53316" trl="Y">
+  <value column="Name" original="Force">強制重建</value>
+  <value column="Description" original="Force rebuild of cube even if locked.">即使立方體被鎖定，也強制重建數據結果</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="53485" trl="Y">
+  <value column="Name" original="Periodicity">周期性</value>
+  <value column="Description" original="">計劃的周期定義</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="53486" trl="Y">
+  <value column="Name" original="Repetitions">周期數量</value>
+  <value column="Description" original="">計劃的周期數量</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="53516" trl="Y">
+  <value column="Name" original="Recreate">重建</value>
+  <value column="Description" original="Overwrite existing production lines">覆蓋現有的生產線</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="53517" trl="Y">
+  <value column="Name" original="Production Quantity">生產數量</value>
+  <value column="Description" original="Quantity of products to produce">Quantity of products to produce</value>
+  <value column="Help" original="The Production Quantity identifies the number of products to produce">The Production Quantity identifies the number of products to produce</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="53526" trl="Y">
+  <value column="Name" original="Is Kanban">看板產品</value>
+  <value column="Description" original="">是否為看板產品</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="53582" trl="Y">
+  <value column="Name" original="CreateOpportunity">創建銷售機會</value>
+  <value column="Description" original="Create Opportunity">銷售機會</value>
+  <value column="Help" original="Create a new Sales Opportunity when converting a lead">當可以轉換為一個銷售線索時，創建一個新的銷售機會</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200000" trl="Y">
+  <value column="Name" original="Project">項目</value>
+  <value column="Description" original="Financial Project">財務項目</value>
+  <value column="Help" original="A Project allows you to track and control internal or external activities."/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200005" trl="Y">
+  <value column="Name" original="New EMail Confirm">新電子郵件地址</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200007" trl="Y">
+  <value column="Name" original="Reset Existing Access">重置已有權限</value>
+  <value column="Description" original="Reset Existing Access">重置用戶已存在的權限訪問記錄</value>
+  <value column="Help" original="">重置用戶已存在的權限訪問記錄</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200055" trl="Y">
+  <value column="Name" original="Product">產品</value>
+  <value column="Description" original="Please enter the product (component) you wish to search for">請輸入你要搜索的產品（組件）</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200071" trl="Y">
+  <value column="Name" original="Document Type">單據類型</value>
+  <value column="Description" original="Inventory Cost Adjustment Document Type">庫存成本調整單據類型</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200074" trl="N">
+  <value column="Name" original="Administrative User Email">Administrative User Email</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200075" trl="N">
+  <value column="Name" original="Normal User Email">Normal User Email</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200077" trl="Y">
+  <value column="Name" original="Created Since">列創建時間</value>
+  <value column="Description" original="">指定列的創建時間</value>
+  <value column="Help" original="">指定時間，進一步篩選列的範圍</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200084" trl="Y">
+  <value column="Name" original="Use Default CoA">使用預設科目表（美國）</value>
+  <value column="Description" original="Use Default Chart of Accounts">使用預設的科目表（美國）</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200085" trl="Y">
+  <value column="Name" original="Activity Accounting">作業維度</value>
+  <value column="Description" original="Use Activity accounting dimension">使用作業維度</value>
+  <value column="Help" original="Define if this tenant will use activity accounting dimension.  This can be changed later in Accounting Schema window of the tenant.">Define if this client will use activity accounting dimension.  This can be changed later in Accounting Schema window of the client</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200086" trl="Y">
+  <value column="Name" original="Inactivate Defaults">不使用缺省科目</value>
+  <value column="Description" original="Inactivate Defaults after Created">【新手建議】使用系統缺省科目</value>
+  <value column="Help" original="">使用缺省科目，系統將自動填入所有自動記賬賬戶（大概100+位置）。如果不使用缺省，用戶需要自己手工填入指定的科目。如果正式實施財務模塊，需要一一確認所有自動記賬賬戶，可以選擇此項。</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200102" trl="Y">
+  <value column="Name" original="Cost Adjustment Document Type">成本調整單據類型</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200121" trl="Y">
+  <value column="Name" original="Inbox As Root Folder">以收件文件夾為根目錄</value>
+  <value column="Description" original="True if other folder (request, error,..) occupy in inbox folder"/>
+  <value column="Help" original="Some email server as outlook, every folder occupy in inbox, with web mail as google, we easy create my folder outside inbox folder.&#10;this field define where request, error,.. occupy.">Some email server as outlook, every folder occupy in inbox, with web mail as google, we easy create my folder outside inbox folder.
+this field define where request, error,.. occupy.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200226" trl="N">
+  <value column="Name" original="Folder">Folder</value>
+  <value column="Description" original="Path on the server where the pack in files are located">Path on the server where the pack in files are located</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200287" trl="N">
+  <value column="Name" original="Tenant">Client</value>
+  <value column="Description" original="Tenant for this installation.">Client/Tenant for this installation.</value>
+  <value column="Help" original="A Tenant is a company or a legal entity. You cannot share data between Tenants.">A Client is a company or a legal entity. You cannot share data between Clients. Tenant is a synonym for Client.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200293" trl="N">
+  <value column="Name" original="Delete old/existing files">Delete old/existing files</value>
+  <value column="Description" original="Delete the records from the old storage provider after moved">Delete the records from the old storage provider after moved</value>
+  <value column="Help" original="WARNING!  This option cannot be rolled back!  Be cautious, take backups.  If not enabled, the system administrator can/must remove manually the old files from the previous storage provider later.">WARNING!  This option cannot be rolled back!  Be cautious, take backups.  If not enabled, the system administrator can/must remove manually the old files from the previous storage provider later.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200359" trl="N">
+  <value column="Name" original="Create 'Value' column">Create 'Value' column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200360" trl="N">
+  <value column="Name" original="Create 'Name' column">Create 'Name' column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200361" trl="N">
+  <value column="Name" original="Create KeyColumn">Create KeyColumn</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200362" trl="N">
+  <value column="Name" original="Create a Workflow">Create a Workflow</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200363" trl="N">
+  <value column="Name" original="Create a Translation Table">Create a Translation Table</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200364" trl="N">
+  <value column="Name" original="Create 'Description' column">Create 'Description' column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200365" trl="N">
+  <value column="Name" original="Create 'Help' column">Create 'Help' column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200366" trl="N">
+  <value column="Name" original="Create 'DocumentNo' column">Create 'DocumentNo' column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200367" trl="N">
+  <value column="Name" original="Create 'DocAction' column">Create 'DocAction' column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200368" trl="N">
+  <value column="Name" original="Create 'DocStatus' column">Create 'DocStatus' column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200369" trl="N">
+  <value column="Name" original="Create 'Processed' column">Create 'Processed' column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200370" trl="N">
+  <value column="Name" original="Create 'ProcessedOn' column">Create 'ProcessedOn' column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200371" trl="N">
+  <value column="Name" original="Create 'Processing' column">Create 'Processing' column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200372" trl="N">
+  <value column="Name" original="Create 'C_DocTypeTarget_ID' column">Create 'C_DocTypeTarget_ID' column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200373" trl="N">
+  <value column="Name" original="Create 'C_DocType_ID' column">Create 'C_DocType_ID' column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200374" trl="N">
+  <value column="Name" original="Create 'C_Currency_ID' column">Create 'C_Currency_ID' column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200375" trl="N">
+  <value column="Name" original="Create 'DateTrx' column">Create 'DateTrx' column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200376" trl="N">
+  <value column="Name" original="Create 'DateAcct' column">Create 'DateAcct' column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200377" trl="N">
+  <value column="Name" original="Create 'Posted' column">Create 'Posted' column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200378" trl="N">
+  <value column="Name" original="Create 'IsApproved' column">Create 'IsApproved' column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200379" trl="N">
+  <value column="Name" original="Create 'SalesRep_ID' column">Create 'SalesRep_ID' column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200380" trl="N">
+  <value column="Name" original="Create 'AD_User_ID' column">Create 'AD_User_ID' column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200384" trl="N">
+  <value column="Name" original="Also Without Postings">Also Without Postings</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200392" trl="N">
+  <value column="Name" original="Shipment Date">Shipment Date</value>
+  <value column="Description" original="Date printed on shipment">Date printed on shipment</value>
+  <value column="Help" original="The Shipment Date indicates the date printed on the shipment.">The Shipment Date indicates the date printed on the shipment.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200393" trl="N">
+  <value column="Name" original="Orders with unconfirmed Shipments">Orders with unconfirmed Shipments</value>
+  <value column="Description" original="Generate shipments for Orders with open delivery confirmations?">Generate shipments for Orders with open delivery confirmations?</value>
+  <value column="Help" original="You can also include orders who have outstanding confirmations (e.g. ordered=10 - not confirmed shipments=4 - would create a new shipment of 6 if available).">You can also include orders who have outstanding confirmations (e.g. ordered=10 - not confirmed shipments=4 - would create a new shipment of 6 if available).</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200417" trl="N">
+  <value column="Name" original="AD_Language">AD_Language</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200418" trl="N">
+  <value column="Name" original="Date To">Date To</value>
+  <value column="Description" original="Last Date to verify Change Log">Last Date to verify Change Log</value>
+  <value column="Help" original="The change log is verified until this date (useful for example to exclude the application of some 2Packs)">The change log is verified until this date (useful for example to exclude the application of some 2Packs)</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200433" trl="N">
+  <value column="Name" original="Link Column">Link Column</value>
+  <value column="Description" original="Link Column for Multi-Parent tables">Link Column for Multi-Parent tables</value>
+  <value column="Help" original="The Link Column indicates which column is the primary key for those situations where there is more than one parent.  Only define it, if the table has more than one parent column (e.g. AD_User_Roles).">The Link Column indicates which column is the primary key for those situations where there is more than one parent.  Only define it, if the table has more than one parent column (e.g. AD_User_Roles).</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200441" trl="N">
+  <value column="Name" original="Table Like">Table Like</value>
+  <value column="Description" original="You can use % or a comma separated list of table names enclosed within single quotes (case sensitive)">You can use % or a comma separated list of table names enclosed within single quotes (case sensitive)</value>
+  <value column="Help" original="The DB Table Name indicates the name of the table in database.">The DB Table Name indicates the name of the table in database.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+</idempiereTrl>

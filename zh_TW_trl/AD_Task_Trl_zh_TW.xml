@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 11_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_TW" table="AD_Task">
+ <row id="102" trl="Y">
+  <value column="Name" original="Java Version">Java 版本</value>
+  <value column="Description" original="Displays the version of the default Java VM">顯示預設 Java 虛擬機的版本</value>
+  <value column="Help" original="The java version used by the application might be different.">應用程序使用的 Java 版本可能不同</value>
+ </row>
+ <row id="103" trl="Y">
+  <value column="Name" original="Database export">數據庫備份</value>
+  <value column="Description" original="Export (save) the database">導出 (保存) 數據庫</value>
+  <value column="Help" original="Run this command from the server">請從服務器運行該命令</value>
+ </row>
+ <row id="104" trl="Y">
+  <value column="Name" original="Database transfer">數據庫傳送</value>
+  <value column="Description" original="Transfer the database">傳送數據庫</value>
+  <value column="Help" original="Run this command from the server">請從服務器運行該命令</value>
+ </row>
+</idempiereTrl>

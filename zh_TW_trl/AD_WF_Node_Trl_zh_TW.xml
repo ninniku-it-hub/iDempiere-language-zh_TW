@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 11_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_TW" table="AD_WF_Node">
+ <row id="116" trl="Y">
+  <value column="Name" original="Accounting Schema">會計賬套</value>
+  <value column="Description" original="Project as Account Segment">項目作為賬戶分段</value>
+  <value column="Help" original="To enable accounting reporting of projects, create and enable a project segment in the account elements.">為了獲得項目的會計報表，需要創建和啟用項目維度。</value>
+ </row>
+ <row id="118" trl="Y">
+  <value column="Name" original="System Elements">系統元素</value>
+  <value column="Description" original="Translate System Elements">翻譯系統元素</value>
+  <value column="Help" original="System Elements are used to centrally define field labels, description and help. When translating an Element, the appropriate information of Fields in Windows, Parameters and Reports are translated (overwritten)">系統元素是欄位、流程參數、打印格式項、資訊窗口欄位的詞條的來源。同步詞條翻譯會將元素詞條覆蓋集中維護類型對象。</value>
+ </row>
+ <row id="119" trl="Y">
+  <value column="Name" original="Messages">消息</value>
+  <value column="Description" original="Translate Messages">翻譯消息</value>
+  <value column="Help" original="Translate the messages used in Windows, Forms and Processes">翻譯窗口、窗體和流程的消息詞條。</value>
+ </row>
+ <row id="120" trl="Y">
+  <value column="Name" original="Reference">引用</value>
+  <value column="Description" original="Translate References">翻譯引用</value>
+  <value column="Help" original="References are used as prefedined selection lists.  You only need to translate the List Elements !!">引用被用於預定義的值列表，只需要翻譯List類型值。</value>
+ </row>
+ <row id="121" trl="Y">
+  <value column="Name" original="Window &amp; Tab">窗口與分頁</value>
+  <value column="Description" original="Translate Windows and Tabs">翻譯窗口與分頁</value>
+  <value column="Help" original="Translate the Name, Description and Help for Windows and Tabs.  Most of the Fields are already translated, if they are centrally maintained.">翻譯窗口和分頁的名字、描述和幫助。99%的欄位詞條是集中維護的，無需翻譯。</value>
+ </row>
+ <row id="122" trl="Y">
+  <value column="Name" original="Form">窗體</value>
+  <value column="Description" original="Translate Forms">翻譯窗體</value>
+  <value column="Help" original="Forms are special Windows and you need to translate its name, description and Help.">翻譯窗體和特殊窗口的名稱、描述和幫助。</value>
+ </row>
+ <row id="123" trl="Y">
+  <value column="Name" original="Report &amp; Process">報表與流程</value>
+  <value column="Description" original="Translate Reports and Processes">翻譯報表與流程</value>
+  <value column="Help" original="Translate the Name, Description and Help for Processes and Reports. You don't need to translate the Parameters, if they are centrally maintained.">只需為報表與流程翻譯名稱，描述和幫助，而參數是集中維護，系統會同步詞條。</value>
+ </row>
+ <row id="140" trl="Y">
+  <value column="Name" original="User">用戶</value>
+  <value column="Description" original="Define Sales Representative as User">將銷售代表作為用戶定義</value>
+  <value column="Help" original="Users can log into the system and have access to functionality via one or more roles. Select the Business Partner you just set up. This enables the user to be treated as sales rep in the system.">用戶可以登錄到系統，並可一個或者多個角色權限。如果選擇業務夥伴作為銷售代表，系統會將其作為用戶對待。</value>
+ </row>
+ <row id="141" trl="Y">
+  <value column="Name" original="Business Partner">業務夥伴</value>
+  <value column="Description" original="Set up Sales Representative as Business Partner">設置銷售代表</value>
+  <value column="Help" original="Set up the sales representative as Employee and Sales Representative in the Employee tab.  Also set up the Vendor part, if you want to create payments.">在員工分頁，設置銷售代表為員工或者銷售代表選項，如果需要支付，你可以設置供應商資訊。</value>
+ </row>
+ <row id="146" trl="Y">
+  <value column="Name" original="Workflow">工作流</value>
+  <value column="Description" original="Translate Workflows">翻譯工作流</value>
+  <value column="Help" original="Translate Name, Description and Help of Workflows and their Nodes.  You only need to translate the List Elements !!">翻譯工作流和節點的名稱、描述和幫助。只需翻譯List對象，其他不要翻譯。</value>
+ </row>
+ <row id="152" trl="Y">
+  <value column="Name" original="Check Tenant Setup">檢查實體設置</value>
+  <value column="Description" original="Check Tenant setup for Requests">檢查實體設置的請求資訊</value>
+  <value column="Help" original="You need to have a mail server and an email address from which the requets an notifications are sent.  Optionally, if you define a mail user and password, requests are read from the mail users's folder and imported into the system.">設置一個接收請求提醒的郵件服務器和email地址。如果你定義了郵件用戶和密碼，系統將從郵件服務器的收件箱取回郵件。</value>
+ </row>
+ <row id="153" trl="Y">
+  <value column="Name" original="Check Users">檢查用戶</value>
+  <value column="Description" original="Check users for Request processing">檢查用戶的請求資訊</value>
+  <value column="Help" original="Please ensure that users have a email address and supervisor assigned.">請確認用戶的郵件地址和直接主管。</value>
+ </row>
+ <row id="155" trl="Y">
+  <value column="Name" original="Check Business Partners">檢查業務夥伴</value>
+  <value column="Description" original="Check Business Partners for Request processing">檢查業務夥伴的請求資訊</value>
+  <value column="Help" original="You can send EMails to businbess partners.  Make sure, that the business partners and/or the Contacts have email addresses.">你可以向業務夥伴發送，確認業務夥伴或者其聯絡人是否存在電子郵件地址。</value>
+ </row>
+ <row id="166" trl="Y">
+  <value column="Name" original="Tax Category">稅種</value>
+  <value column="Description" original="Maintain Tax Categories">維護稅種</value>
+  <value column="Help" original="The Tax Category Window is used to enter and maintain Tax Categories.  Each product is associated with a tax category which facilitates reacting changing tax rates.">稅種窗口用來維護稅的種類，並設置缺省值，每個產品可以指定一個稅種，每個稅種有一個預設稅目。</value>
+ </row>
+ <row id="167" trl="Y">
+  <value column="Name" original="Product">產品</value>
+  <value column="Description" original="Maintain Products">維護產品</value>
+  <value column="Help" original="The Product Window defines all products used by an organization.  These products include those sold to customers, used in the manufacture of products sold to customers and products purchased by an organization.">產品窗口定義了組織的所有產品、服務和資源。</value>
+ </row>
+ <row id="168" trl="Y">
+  <value column="Name" original="Charge">雜費</value>
+  <value column="Description" original="Maintain Charges">維護雜費</value>
+  <value column="Help" original="The Charges Window defines the different charges that may be incurred.  These can include Bank Charges, Vendor Charges and Handling Charges.">雜費窗口定義了可能產生的不同雜費。這些可包含銀行手續費、供應商雜費和手工處理費等</value>
+ </row>
+ <row id="169" trl="Y">
+  <value column="Name" original="Tax Rate">稅率</value>
+  <value column="Description" original="Maintain Taxes and their Rates">維護稅和稅率</value>
+  <value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.">稅率窗口定義用於每一稅種的不同稅率。例如，銷售稅必須為適用的每個地區進行定義</value>
+ </row>
+ <row id="170" trl="Y">
+  <value column="Name" original="Accounting Schema">會計賬套</value>
+  <value column="Description" original="Maintain Accounting Schema - For changes to become effective you must re-login">維護會計賬套 </value>
+  <value column="Help" original="The Accounting Schema Window defines an accounting method and the elements that will comprise an account structure. Create and activate elements for detailed accounting for Business Partners, Products, Locations, etc.&#10;Review and change the GL and Default accounts. The actual accounts used in transactions depend on the executing organization; Most of the information is derived from the context." xml:space="preserve"><![CDATA[會計賬套窗口定義了會計準則和會計元素（科目、成本中心）。你可以為業務夥伴、產品或者地址新建和啟用明細賬戶。<br />
+檢查和變更總賬賬戶和缺省賬戶。日常事務實際使用的賬戶取決於指定的執行組織，大多數維度資訊都來自於單據的上下文欄位。]]></value>
+ </row>
+ <row id="50000" trl="Y">
+  <value column="Name" original="Manufacturing Workflow Setup">生產工作流設置</value>
+  <value column="Description" original="Setup Manufacturing Workflow">設置生產工藝</value>
+  <value column="Help" original="">設置生產工藝</value>
+ </row>
+ <row id="50001" trl="Y">
+  <value column="Name" original="Discrete Manufacturing Setup">離散制造設置</value>
+  <value column="Description" original="Setup Manufacturing Management">設置生產管理</value>
+  <value column="Help" original="">設置生產管理</value>
+ </row>
+ <row id="50002" trl="Y">
+  <value column="Name" original="Bill of Material &amp; Formula Setup">物料清單與配方 設置</value>
+  <value column="Description" original="Setup Manufacturing Management">設置生產管理</value>
+  <value column="Help" original="">設置生產管理</value>
+ </row>
+ <row id="50003" trl="Y">
+  <value column="Name" original="Warehouse &amp; Locators">倉庫與貨位</value>
+  <value column="Description" original="Warehouse &amp; Locators">倉庫與貨位</value>
+  <value column="Help" original="">倉庫與貨位</value>
+ </row>
+ <row id="50004" trl="Y">
+  <value column="Name" original="Resource Type">資源類型</value>
+  <value column="Description" original="Resource Type">資源類型</value>
+  <value column="Help" original="">資源類型</value>
+ </row>
+ <row id="50005" trl="Y">
+  <value column="Name" original="Manufacturing Workflows">生產工作流</value>
+  <value column="Description" original="Manufacturing Workflows">生產工作流</value>
+  <value column="Help" original="">生產工作流</value>
+ </row>
+ <row id="50006" trl="Y">
+  <value column="Name" original="Manufacturing Resource">生產資源</value>
+  <value column="Description" original="Manufacturing Resource">生產資源</value>
+  <value column="Help" original="">生產資源</value>
+ </row>
+ <row id="50007" trl="Y">
+  <value column="Name" original="Unit of Measure">度量單位</value>
+  <value column="Description" original="Maintain Unit of Measure ">維護度量單位 </value>
+  <value column="Help" original="">維護度量單位 </value>
+ </row>
+ <row id="50008" trl="Y">
+  <value column="Name" original="Product">產品</value>
+  <value column="Description" original="Maintain Products">維護產品</value>
+  <value column="Help" original="">維護產品</value>
+ </row>
+ <row id="50009" trl="Y">
+  <value column="Name" original="Material Requirement Planning Setup">物料需求計劃設置</value>
+  <value column="Description" original="Setup Material Requirement Planning">物料需求計劃</value>
+  <value column="Help" original="">物料需求計劃</value>
+ </row>
+ <row id="50010" trl="Y">
+  <value column="Name" original="Capacity Requirement Planning Setup">能力需求計劃設置</value>
+  <value column="Description" original="Setup Capacity Requirement Planning">能力需求計劃</value>
+  <value column="Help" original="">能力需求計劃</value>
+ </row>
+ <row id="50011" trl="Y">
+  <value column="Name" original="Forecast">預測</value>
+  <value column="Description" original="Forecast">預測</value>
+  <value column="Help" original="">預測</value>
+ </row>
+ <row id="50012" trl="Y">
+  <value column="Name" original="Manufacturing Management Setup">生產管理設置</value>
+  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">物料需求計劃(MRP) ,是一種利用物料清單,庫存數據,和主生產計劃來計算物料需求的技術</value>
+  <value column="Help" original="">物料需求計劃(MRP) ,是一種利用物料清單,庫存數據,和主生產計劃來計算物料需求的技術</value>
+ </row>
+ <row id="50013" trl="Y">
+  <value column="Name" original="Notice">通知</value>
+  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">物料需求計劃(MRP) ,是一種利用物料清單,庫存數據,和主生產計劃來計算物料需求的技術</value>
+  <value column="Help" original="">物料需求計劃(MRP) ,是一種利用物料清單,庫存數據,和主生產計劃來計算物料需求的技術</value>
+ </row>
+ <row id="50014" trl="Y">
+  <value column="Name" original="Discrete Manufacturing Setup">離散制造設置</value>
+  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">物料需求計劃(MRP) ,是一種利用物料清單,庫存數據,和主生產計劃來計算物料需求的技術</value>
+  <value column="Help" original="">物料需求計劃(MRP) ,是一種利用物料清單,庫存數據,和主生產計劃來計算物料需求的技術</value>
+ </row>
+ <row id="50015" trl="Y">
+  <value column="Name" original="Material Requirement Planning Setup">物料需求計劃設置</value>
+  <value column="Description" original="Setup Material Requirement Planning">物料需求計劃</value>
+  <value column="Help" original="">物料需求計劃</value>
+ </row>
+ <row id="50016" trl="Y">
+  <value column="Name" original="Manufacturing Workflow Setup">生產工作流設置</value>
+  <value column="Description" original="Setup Manufacturing Workflow">設置生產工藝</value>
+  <value column="Help" original="">設置生產工藝</value>
+ </row>
+ <row id="50017" trl="Y">
+  <value column="Name" original="Calculate Capacity Plan">計算能力計劃</value>
+  <value column="Description" original="Calculate Capacity Plan">計算能力計劃</value>
+  <value column="Help" original="">計算能力計劃</value>
+ </row>
+ <row id="50018" trl="Y">
+  <value column="Name" original="Resource Load View">資源負載視圖</value>
+  <value column="Description" original="It shows graphically of the required and available time for each manufacturing resource.">它以圖形方式顯示每個生產資源的需求和可用時間</value>
+  <value column="Help" original="">它以圖形方式顯示每個生產資源的需求和可用時間</value>
+ </row>
+ <row id="50019" trl="Y">
+  <value column="Name" original="Material Requirement Planning Setup">物料需求計劃設置</value>
+  <value column="Description" original="Setup Material Requirement Planning">物料需求計劃</value>
+  <value column="Help" original="">物料需求計劃</value>
+ </row>
+ <row id="50020" trl="Y">
+  <value column="Name" original="Manufacturing Management Setup">生產管理設置</value>
+  <value column="Description" original="Setup Manufacturing Management">設置生產管理</value>
+  <value column="Help" original="">設置生產管理</value>
+ </row>
+ <row id="50021" trl="Y">
+  <value column="Name" original="Distribution Management Setup">配送管理設置</value>
+  <value column="Description" original="Setup Distribution Management">設置配送管理</value>
+  <value column="Help" original="">設置配送管理</value>
+ </row>
+ <row id="50022" trl="Y">
+  <value column="Name" original="Planned Order Approval">審批生產計劃單</value>
+  <value column="Description" original="Planned Order Approval">審批生產計劃單</value>
+  <value column="Help" original="">審批生產計劃單</value>
+ </row>
+ <row id="50023" trl="Y">
+  <value column="Name" original="MRP Notice">MRP 通知</value>
+  <value column="Description" original="MRP Notice">MRP 通知</value>
+  <value column="Help" original="">MRP 通知</value>
+ </row>
+ <row id="50024" trl="Y">
+  <value column="Name" original="MRP Info">MRP 資訊</value>
+  <value column="Description" original="MRP Info">MRP 資訊</value>
+  <value column="Help" original="">MRP 資訊</value>
+ </row>
+ <row id="50025" trl="Y">
+  <value column="Name" original="Calculate Distribution Plan">計算配送計劃</value>
+  <value column="Description" original="Calculate Distribution Plan">計算配送計劃</value>
+  <value column="Help" original="">計算配送計劃</value>
+ </row>
+ <row id="50027" trl="Y">
+  <value column="Name" original="(DocComplete)">(單據完成)</value>
+  <value column="Description" original="(Standard Node)">(標準節點)</value>
+  <value column="Help" original="">(標準節點)</value>
+ </row>
+ <row id="50028" trl="Y">
+  <value column="Name" original="(DocPrepare)">(單據準備)</value>
+  <value column="Description" original="(Standard Node)">(標準節點)</value>
+  <value column="Help" original="">(標準節點)</value>
+ </row>
+ <row id="50029" trl="Y">
+  <value column="Name" original="(Start)">(啟動)</value>
+  <value column="Description" original="(Standard Node)">(標準節點)</value>
+  <value column="Help" original="">(標準節點)</value>
+ </row>
+ <row id="50034" trl="Y">
+  <value column="Name" original="Freight Category">運費類型</value>
+  <value column="Description" original="Maintain Freight Categories">維護運費類型</value>
+  <value column="Help" original="">維護運費類型</value>
+ </row>
+ <row id="50035" trl="Y">
+  <value column="Name" original="Inventory Move">調撥</value>
+  <value column="Description" original="Inventory Move">調撥</value>
+  <value column="Help" original="">調撥</value>
+ </row>
+ <row id="50036" trl="Y">
+  <value column="Name" original="Shipper">承運人</value>
+  <value column="Description" original="Maintain Shippers">維護承運人</value>
+  <value column="Help" original="">維護承運人</value>
+ </row>
+ <row id="50049" trl="Y">
+  <value column="Name" original="Multi Level BOM &amp; Formula Detail">多層物料清單與配方 明細</value>
+  <value column="Description" original="Shows in two different panels the parent-component relationship for the product entered in the Product field.">在兩個面板中顯示產品選項中輸入的產品的配件層次關系</value>
+  <value column="Help" original="">在兩個面板中顯示產品選項中輸入的產品的配件層次關系</value>
+ </row>
+ <row id="50050" trl="Y">
+  <value column="Name" original="BOM &amp; Formula Info">物料清單與配方資訊</value>
+  <value column="Description" original="Shows in two different panels the parent-component relationship for the product entered in the Product field.">在兩個面板中顯示產品選項中輸入的產品的配件層次關系</value>
+  <value column="Help" original="">在兩個面板中顯示產品選項中輸入的產品的配件層次關系</value>
+ </row>
+ <row id="50051" trl="N">
+  <value column="Name" original="Bill of Materials &amp; Formula" xml:space="preserve"><![CDATA[Bill of Materials & Formula]]></value>
+  <value column="Description" original="Maintain Product Bill of Materials &amp; Formula " xml:space="preserve"><![CDATA[Maintain Product Bill of Materials & Formula ]]></value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50052" trl="Y">
+  <value column="Name" original="Product Planning">產品計劃</value>
+  <value column="Description" original="Product Planning">產品計劃</value>
+  <value column="Help" original="">產品計劃</value>
+ </row>
+ <row id="50053" trl="Y">
+  <value column="Name" original="Calculate Low Level">計算子件層數</value>
+  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">物料需求計劃(MRP) ,是一種利用物料清單,庫存數據,和主生產計劃來計算物料需求的技術</value>
+  <value column="Help" original="">物料需求計劃(MRP) ,是一種利用物料清單,庫存數據,和主生產計劃來計算物料需求的技術</value>
+ </row>
+ <row id="50054" trl="Y">
+  <value column="Name" original="Calculate Material Plan">計算物料計劃</value>
+  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">物料需求計劃(MRP) ,是一種利用物料清單,庫存數據,和主生產計劃來計算物料需求的技術</value>
+  <value column="Help" original="">物料需求計劃(MRP) ,是一種利用物料清單,庫存數據,和主生產計劃來計算物料需求的技術</value>
+ </row>
+ <row id="50055" trl="Y">
+  <value column="Name" original="Planned Order Approval">審批生產計劃單</value>
+  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">物料需求計劃(MRP) ,是一種利用物料清單,庫存數據,和主生產計劃來計算物料需求的技術</value>
+  <value column="Help" original="">物料需求計劃(MRP) ,是一種利用物料清單,庫存數據,和主生產計劃來計算物料需求的技術</value>
+ </row>
+ <row id="50056" trl="Y">
+  <value column="Name" original="MRP Info">MRP 資訊</value>
+  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">物料需求計劃(MRP) ,是一種利用物料清單,庫存數據,和主生產計劃來計算物料需求的技術</value>
+  <value column="Help" original="">物料需求計劃(MRP) ,是一種利用物料清單,庫存數據,和主生產計劃來計算物料需求的技術</value>
+ </row>
+ <row id="50057" trl="Y">
+  <value column="Name" original="Print &amp; Release Order">原銷售訂單</value>
+  <value column="Description" original="Print &amp; Release Order">原銷售訂單</value>
+  <value column="Help" original="">原銷售訂單</value>
+ </row>
+ <row id="50058" trl="Y">
+  <value column="Name" original="Order Receipt &amp; Issue">生產單入庫與發料</value>
+  <value column="Description" original="Order Receipt &amp; Issue">生產單入庫與發料</value>
+  <value column="Help" original="">生產單入庫與發料</value>
+ </row>
+ <row id="50059" trl="Y">
+  <value column="Name" original="Manufacturing Order">生產單</value>
+  <value column="Description" original="Manufacturing Order">生產單</value>
+  <value column="Help" original="">生產單</value>
+ </row>
+ <row id="50060" trl="Y">
+  <value column="Name" original="Component Check">子件檢查</value>
+  <value column="Description" original="Component Check">子件檢查</value>
+  <value column="Help" original="">子件檢查</value>
+ </row>
+ <row id="50061" trl="Y">
+  <value column="Name" original="Generate Movement">產生調撥單</value>
+  <value column="Description" original="Generate and print Movement from open Distribution Orders">從未清配送單產生和打印調撥單</value>
+  <value column="Help" original="">從未清配送單產生和打印調撥單</value>
+ </row>
+ <row id="50062" trl="Y">
+  <value column="Name" original="Generate Movement Manual">創建調撥單(手工)</value>
+  <value column="Description" original="Generate Movement to a Order Distribution">產生一個配送單的調撥單</value>
+  <value column="Help" original="">產生一個配送單的調撥單</value>
+ </row>
+ <row id="50063" trl="Y">
+  <value column="Name" original="Distribution Order">配送單</value>
+  <value column="Description" original="Distribution Order allow create Order inter warehouse to supply a demand ">分銷訂單允許創建倉庫間訂單以供應某個需求 </value>
+  <value column="Help" original="">分銷訂單允許創建倉庫間訂單以供應某個需求 </value>
+ </row>
+ <row id="50064" trl="Y">
+  <value column="Name" original="Import Proccesor">匯入引擎</value>
+  <value column="Description" original="Import Proccesor">匯入引擎</value>
+  <value column="Help" original="">匯入引擎</value>
+ </row>
+ <row id="50065" trl="Y">
+  <value column="Name" original="Import Processor Type">匯入引擎類型</value>
+  <value column="Description" original="Import Processor Type">匯入引擎類型</value>
+  <value column="Help" original="">匯入引擎類型</value>
+ </row>
+ <row id="50066" trl="Y">
+  <value column="Name" original="Export Format">導出格式</value>
+  <value column="Description" original="Export Format">導出格式</value>
+  <value column="Help" original="">導出格式</value>
+ </row>
+ <row id="50067" trl="Y">
+  <value column="Name" original="Export Processor">導出引擎</value>
+  <value column="Description" original="Export Processor">導出引擎</value>
+  <value column="Help" original="">導出引擎</value>
+ </row>
+ <row id="50068" trl="Y">
+  <value column="Name" original="Export Processor Type">導出引擎類型</value>
+  <value column="Description" original="Export Processor Type">導出引擎類型</value>
+  <value column="Help" original="">導出引擎類型</value>
+ </row>
+ <row id="50069" trl="Y">
+  <value column="Name" original="Replication Strategy">覆制策略</value>
+  <value column="Description" original="Replication Strategy">覆制策略</value>
+  <value column="Help" original="">覆制策略</value>
+ </row>
+ <row id="50081" trl="Y">
+  <value column="Name" original="Payroll Action Notice">薪酬發放提醒</value>
+  <value column="Description" original="">薪酬發放提醒</value>
+  <value column="Help" original="">薪酬發放提醒</value>
+ </row>
+ <row id="50099" trl="Y">
+  <value column="Name" original="(DocAuto)">(單據自動)</value>
+  <value column="Description" original="">(單據自動)</value>
+  <value column="Help" original="">(單據自動)</value>
+ </row>
+ <row id="50100" trl="Y">
+  <value column="Name" original="(DocComplete)">(單據完成)</value>
+  <value column="Description" original="">(單據完成)</value>
+  <value column="Help" original="">(單據完成)</value>
+ </row>
+ <row id="50101" trl="Y">
+  <value column="Name" original="(DocPrepare)">(單據準備)</value>
+  <value column="Description" original="">(單據準備)</value>
+  <value column="Help" original="">(單據準備)</value>
+ </row>
+ <row id="50102" trl="Y">
+  <value column="Name" original="(Start)">(啟動)</value>
+  <value column="Description" original="">(啟動)</value>
+  <value column="Help" original="">(啟動)</value>
+ </row>
+ <row id="50104" trl="Y">
+  <value column="Name" original="(DocAuto)">(單據自動)</value>
+  <value column="Description" original="">(單據自動)</value>
+  <value column="Help" original="">(單據自動)</value>
+ </row>
+ <row id="50105" trl="Y">
+  <value column="Name" original="(DocComplete)">(單據完成)</value>
+  <value column="Description" original="">(單據完成)</value>
+  <value column="Help" original="">(單據完成)</value>
+ </row>
+ <row id="50106" trl="Y">
+  <value column="Name" original="(DocPrepare)">(單據準備)</value>
+  <value column="Description" original="">(單據準備)</value>
+  <value column="Help" original="">(單據準備)</value>
+ </row>
+ <row id="50107" trl="Y">
+  <value column="Name" original="(Start)">(啟動)</value>
+  <value column="Description" original="">(啟動)</value>
+  <value column="Help" original="">(啟動)</value>
+ </row>
+ <row id="50108" trl="Y">
+  <value column="Name" original="(DocAuto)">(單據自動)</value>
+  <value column="Description" original="">(單據自動)</value>
+  <value column="Help" original="">(單據自動)</value>
+ </row>
+ <row id="50109" trl="Y">
+  <value column="Name" original="(DocComplete)">(單據完成)</value>
+  <value column="Description" original="">(單據完成)</value>
+  <value column="Help" original="">(單據完成)</value>
+ </row>
+ <row id="50110" trl="Y">
+  <value column="Name" original="(DocPrepare)">(單據準備)</value>
+  <value column="Description" original="">(單據準備)</value>
+  <value column="Help" original="">(單據準備)</value>
+ </row>
+ <row id="50111" trl="Y">
+  <value column="Name" original="(Start)">(啟動)</value>
+  <value column="Description" original="">(啟動)</value>
+  <value column="Help" original="">(啟動)</value>
+ </row>
+ <row id="50112" trl="Y">
+  <value column="Name" original="(DocAuto)">(單據自動)</value>
+  <value column="Description" original="">(單據自動)</value>
+  <value column="Help" original="">(單據自動)</value>
+ </row>
+ <row id="50113" trl="Y">
+  <value column="Name" original="(DocComplete)">(單據完成)</value>
+  <value column="Description" original="">(單據完成)</value>
+  <value column="Help" original="">(單據完成)</value>
+ </row>
+ <row id="50114" trl="Y">
+  <value column="Name" original="(DocPrepare)">(單據準備)</value>
+  <value column="Description" original="">(單據準備)</value>
+  <value column="Help" original="">(單據準備)</value>
+ </row>
+ <row id="50115" trl="Y">
+  <value column="Name" original="(Start)">(啟動)</value>
+  <value column="Description" original="">(啟動)</value>
+  <value column="Help" original="">(啟動)</value>
+ </row>
+ <row id="50116" trl="Y">
+  <value column="Name" original="(Start)">(啟動)</value>
+  <value column="Description" original="">(啟動)</value>
+  <value column="Help" original="">(啟動)</value>
+ </row>
+ <row id="50117" trl="Y">
+  <value column="Name" original="(DocAuto)">(單據自動)</value>
+  <value column="Description" original="">(單據自動)</value>
+  <value column="Help" original="">(單據自動)</value>
+ </row>
+ <row id="50118" trl="Y">
+  <value column="Name" original="(DocComplete)">(單據完成)</value>
+  <value column="Description" original="">(單據完成)</value>
+  <value column="Help" original="">(單據完成)</value>
+ </row>
+ <row id="50119" trl="Y">
+  <value column="Name" original="(DocPrepare)">(單據準備)</value>
+  <value column="Description" original="">(單據準備)</value>
+  <value column="Help" original="">(單據準備)</value>
+ </row>
+</idempiereTrl>

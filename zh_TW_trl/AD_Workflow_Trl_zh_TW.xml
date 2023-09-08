@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 11_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_TW" table="AD_Workflow">
+ <row id="101" trl="Y">
+  <value column="Name" original="Project Setup and Use">設置_項目</value>
+  <value column="Description" original="Setup of projects and project reporting">項目與項目報表的設置</value>
+  <value column="Help" original="Projects allow to monitor the status and progress of sales opportunities, service projects and investment projects. A Project is a process that is undertaken which can involve multiple steps or phases and require resources from more than one area.">項目是一個涉及多個步驟或階段，需要多方面資源的過程。你可以用來監控和處理銷售機會、服務項目或者投資項目。</value>
+ </row>
+ <row id="103" trl="Y">
+  <value column="Name" original="Language Setup">設置_語言</value>
+  <value column="Description" original="Setup a new Language of the system and translate elements">設置系統的新語言並翻譯元素</value>
+  <value column="Help" original="Define a new language as a system language.">在系統語言中定義新的語言</value>
+ </row>
+ <row id="104" trl="Y">
+  <value column="Name" original="Initial Tenant Setup Review">初始化_實體</value>
+  <value column="Description" original="Review of system level setup of a new  Tenant">檢查新實體的系統級設置</value>
+  <value column="Help" original="This workflow reviews the system setup of a new tenant as performed by the automatic Initial Tenant Setup.&#10;You may want to check also the following Workflows:&#10;- Accounting Setup&#10;- Business Partner Setup&#10;- Product Setup&#10;- Price list Setup&#10;- Warehouse Setup&#10;- Tax Setup" xml:space="preserve"><![CDATA[檢查新實體初始化後的基礎設置。除此之外，還可以通過如下工作流檢查：<br />
+- 設置_會計 <br />
+- 設置_業務夥伴 <br />
+- 設置_產品 <br />
+- 設置_價格表 <br />
+- 設置_倉庫 <br />
+- 設置_稅 <br />]]></value>
+ </row>
+ <row id="105" trl="Y">
+  <value column="Name" original="Accounting Setup">設置_會計</value>
+  <value column="Description" original="Review and change Accounting Setup">設置財務的會計資訊</value>
+  <value column="Help" original="This workflow allows you to review and change your Accounting Rules. ">檢查或者更改財務的會計規則。</value>
+ </row>
+ <row id="106" trl="Y">
+  <value column="Name" original="Business Partner Setup">初始化_業務夥伴</value>
+  <value column="Description" original="Setup Business Partner Rules">設置業務夥伴</value>
+  <value column="Help" original="This workflow defines the Business Partners and the supporting rules.">定義業務夥伴以及相關規則。</value>
+ </row>
+ <row id="107" trl="Y">
+  <value column="Name" original="Product Setup">初始化_產品</value>
+  <value column="Description" original="Set up Products">設置產品</value>
+  <value column="Help" original="Define your products manually. You should verify the settings especially if you import your products.">可以手動輸入產品，或者檢查產品匯入的結果。</value>
+ </row>
+ <row id="108" trl="Y">
+  <value column="Name" original="Price List Setup">初始化_價格表</value>
+  <value column="Description" original="Define your Price Lists and Discounts">設置價格表與折扣模式</value>
+  <value column="Help" original="You define your price lists after entering or importing your products. In addition to price lists, you can define discounts for business partners.  Assign specific Price Lists and Discounst to Business Partners.">定義價格表和折扣模式。對於採購/銷售業務，需要定義價格表模式和價格表版本，另外銷售業務還可以定義折扣模式，以區分不同的產品或者客戶價格。</value>
+ </row>
+ <row id="110" trl="Y">
+  <value column="Name" original="Tax Setup">初始化_稅</value>
+  <value column="Description" original="Setup tax calculation">設置稅相關資訊</value>
+  <value column="Help" original="Setup the tax calculation for products, services and charges">為產品、服務或者雜費設置計稅相關資訊。</value>
+ </row>
+ <row id="111" trl="Y">
+  <value column="Name" original="Sales Setup">初始化_銷售</value>
+  <value column="Description" original="Setup Sales">設置銷售相關定義</value>
+  <value column="Help" original="Setting up Sales Representatives, Commissions as well as Marketing Channels and Campaigns.">設置銷售代表、傭金以及營銷渠道和營銷活動</value>
+ </row>
+ <row id="112" trl="Y">
+  <value column="Name" original="Performance Measurement Setup">設置_績效分析</value>
+  <value column="Description" original="Setup your Performance Measurement">設置績效分析</value>
+  <value column="Help" original="This workflow guides you through setting up your performance measurement based on Key Performance Indicators, Balanced Scorecard, etc.&#10;&#10;Most important: Do your analysis first!&#10;- What are your goals and how do you measure it?&#10;&#10;When you are setting up the system, you do it in reverse:&#10;First you define how you measure it and last you define the goals for the measurements.&#10;You have three ways measuring performance:&#10;- via quantifiable measures (e.g. sales of $3 million in Q1)&#10;- via manual measures&#10;- via achievements (tasks)&#10;&#10;The system converts the measures into percentages (based on the target and achieved measure - or number of total and reached achievements)" xml:space="preserve"><![CDATA[設置基於“關鍵績效指標”或者“平衡計分卡”的績效資訊。<br />績效規則：你的目標是什麽，你如何評估？<br />設置順序：先定義評估，最後定義目標。<br />系統提供三種績效評估方式：量化評估、主觀評估，完成狀態。<br />系統會將評估以百分比形式表示，基於達到值對比目標值，或者基於已完成數量對比總數量。]]></value>
+ </row>
+ <row id="113" trl="Y">
+  <value column="Name" original="Request Setup">設置_請求</value>
+  <value column="Description" original="Set up the tenant to process requests">設置請求</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="115" trl="Y">
+  <value column="Name" original="Process_Requisition">單據處理_請購單</value>
+  <value column="Description" original="(Standard Process_Requisition)">(標準單據處理流程_請購單)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="116" trl="N">
+  <value column="Name" original="Process_Order">Process_Order</value>
+  <value column="Description" original="(Standard Process Order)">(Standard Process Order)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="117" trl="Y">
+  <value column="Name" original="Process_Shipment">單據處理_收發單</value>
+  <value column="Description" original="(Standard Process Shipment)">(標準單據處理流程_收發單)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="118" trl="Y">
+  <value column="Name" original="Process_Invoice">單據處理_發票</value>
+  <value column="Description" original="(Standard Process Invoice)">(標準單據處理流程_發票)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="120" trl="Y">
+  <value column="Name" original="Process_Payment">單據處理_支付單</value>
+  <value column="Description" original="(Standard Process Payment)">(標準單據處理流程_支付單)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="121" trl="Y">
+  <value column="Name" original="Process_Journal">單據處理_憑證</value>
+  <value column="Description" original="(Standard Process Journal)">(標準單據處理流程_日記賬)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="122" trl="Y">
+  <value column="Name" original="Process_JournalBatch">單據處理_憑證批</value>
+  <value column="Description" original="(Standard Process Jornal Batch)">(標準單據處理流程_日記賬批處理)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="123" trl="Y">
+  <value column="Name" original="Process_RMA">單據處理_退貨授權</value>
+  <value column="Description" original="(Standard Process_RMA)">(標準單據處理流程_退貨授權)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="124" trl="Y">
+  <value column="Name" original="Process_InOutConfirm">單據處理_收發確認</value>
+  <value column="Description" original="(Standard Process Confirmation)">(標準單據處理流程_收發確認)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="125" trl="Y">
+  <value column="Name" original="Process_Allocation">單據處理_支付分配單</value>
+  <value column="Description" original="(Standard Process Allocation)">(標準單據處理流程_支付分配單)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="126" trl="Y">
+  <value column="Name" original="Process_TimeExpense">單據處理_費用單</value>
+  <value column="Description" original="(Standard Process Time Expense)">(標準單據處理流程_時間費用)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="127" trl="Y">
+  <value column="Name" original="Process_Inventory">單據處理_庫存調整單</value>
+  <value column="Description" original="(Standard Process Inventory)">(標準單據處理流程_庫存調整單)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="128" trl="Y">
+  <value column="Name" original="Process_Movement">單據處理_調撥單</value>
+  <value column="Description" original="(Standard Process Movement)">(標準單據處理流程_調撥單)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="129" trl="Y">
+  <value column="Name" original="Process_MovementConfirm">單據處理_調撥確認</value>
+  <value column="Description" original="(Standard Process Movement Confirmation)">(標準單據處理流程_調撥確認)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="130" trl="Y">
+  <value column="Name" original="Process_BankStatement">單據處理_銀行對賬單</value>
+  <value column="Description" original="(Standard Process Bank Statement)">(標準單據處理流程_銀行對賬單)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50012" trl="Y">
+  <value column="Name" original="Setup Replication">設置_覆制</value>
+  <value column="Description" original="Setup of data replication">設置數據覆制</value>
+  <value column="Help" original="Data Replication allows you to synchronize data of remote instances with a central office.  All actions are initialized from the central office.&lt;p&gt;&#10;&lt;b&gt;Central System:&lt;/b&gt;&lt;br&gt;&#10;- setup system with all organizations, roles, etc.&lt;br&gt;&#10;- run the migration to make sure that it is up-to-date&lt;br&gt;&#10;- export the central system&lt;br&gt;&#10;&lt;p&gt;&#10;&lt;b&gt;Remote System:&lt;/b&gt;&#10;- install the exact version as Central System&lt;br&gt;&#10;- import data from Central System in the remote locations&lt;br&gt;&#10;&lt;p&gt;&#10;&lt;b&gt;Central System:&lt;/b&gt;&#10;- Replication Strategy&lt;br&gt;&#10;- Define Export Format&lt;br&gt;&#10;- Config Export Processor&lt;br&gt;&#10;- Start JMS Server&lt;br&gt;&#10;&lt;p&gt;&#10;** Enter Transactions **&#10;&lt;p&gt;&#10;&lt;b&gt;Remote System:&lt;/b&gt;&lt;br&gt;&#10;- Config Import Processor&lt;br&gt;" xml:space="preserve"><![CDATA[數據覆制功能會將遠程數據庫實例同步到中心系統。所有操作的初始化都是從中心系統發出的。<p>
+<b>Central System:</b><br>
+- setup system with all organizations, roles, etc.<br>
+- run the migration to make sure that it is up-to-date<br>
+- export the central system<br>
+<p>
+<b>Remote System:</b>
+- install the exact version as Central System<br>
+- import data from Central System in the remote locations<br>
+<p>
+<b>Central System:</b>
+- Replication Strategy<br>
+- Define Export Format<br>
+- Config Export Processor<br>
+- Start JMS Server<br>
+<p>
+** Enter Transactions **
+<p>
+<b>Remote System:</b><br>
+- Config Import Processor<br>]]></value>
+ </row>
+ <row id="50020" trl="Y">
+  <value column="Name" original="Process_Asset_Adition">單據處理_資產新增</value>
+  <value column="Description" original="">(標準單據處理流程_資產新增)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50021" trl="Y">
+  <value column="Name" original="Process_Asset_Disposed">單據處理_資產作廢</value>
+  <value column="Description" original="">(標準單據處理流程_資產作廢)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50022" trl="Y">
+  <value column="Name" original="Process_Asset_Transfer">單據處理_資產轉移</value>
+  <value column="Description" original="">(標準單據處理流程_資產轉移)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50023" trl="Y">
+  <value column="Name" original="Process_Asset_Reval">單據處理_資產重估</value>
+  <value column="Description" original="">(標準單據處理流程_資產重估)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50024" trl="Y">
+  <value column="Name" original="Process Asset Depreciation Entry">單據處理_資產折舊</value>
+  <value column="Description" original="">(標準單據處理流程_資產折舊)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200002" trl="N">
+  <value column="Name" original="Process_Production">Process_Production</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200005" trl="N">
+  <value column="Name" original="Process_BankTransfer">Process_BankTransfer</value>
+  <value column="Description" original="(Standard Process_BankTransfer)">(Standard Process_BankTransfer)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200007" trl="N">
+  <value column="Name" original="Process_C_ProjectIssue">Process_C_ProjectIssue</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+</idempiereTrl>
