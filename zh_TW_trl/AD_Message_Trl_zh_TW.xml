@@ -611,7 +611,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="252" trl="Y">
-  <value column="MsgText" original="Field">欄位</value>
+  <value column="MsgText" original="Field">字段</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="253" trl="Y">
@@ -871,7 +871,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="318" trl="Y">
-  <value column="MsgText" original="Last Page">末頁</value>
+  <value column="MsgText" original="Last Page">最後頁</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="319" trl="Y">
@@ -903,11 +903,11 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="326" trl="Y">
-  <value column="MsgText" original="Login">登錄</value>
+  <value column="MsgText" original="Login">登入</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="327" trl="Y">
-  <value column="MsgText" original="Login (success)">登錄成功</value>
+  <value column="MsgText" original="Login (success)">登入成功</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="328" trl="Y">
@@ -961,7 +961,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="340" trl="Y">
-  <value column="MsgText" original="Grid Toggle">列表</value>
+  <value column="MsgText" original="Grid Toggle">網格切換</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="341" trl="Y">
@@ -1005,7 +1005,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="351" trl="Y">
-  <value column="MsgText" original="Next record">下一條記錄</value>
+  <value column="MsgText" original="Next record">下一筆記錄</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="352" trl="Y">
@@ -1014,14 +1014,14 @@
  </row>
  <row id="353" trl="Y">
   <value column="MsgText" original="Did not find next Sequence Number">未找到下一序列號</value>
-  <value column="MsgTip" original="Contact System Administrator">請聯系系統管理員</value>
+  <value column="MsgTip" original="Contact System Administrator">聯繫系統管理員</value>
  </row>
  <row id="354" trl="Y">
   <value column="MsgText" original="No">否</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="355" trl="Y">
-  <value column="MsgText" original="Message Not Found">未找到消息</value>
+  <value column="MsgText" original="Message Not Found">找不到訊息</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="356" trl="Y">
@@ -1041,7 +1041,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="360" trl="Y">
-  <value column="MsgText" original="NOT Active">非活躍的</value>
+  <value column="MsgText" original="NOT Active">未啟用</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="361" trl="Y">
@@ -1145,7 +1145,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="386" trl="Y">
-  <value column="MsgText" original="Parameter">返回</value>
+  <value column="MsgText" original="Parameter">參數</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="387" trl="Y">
@@ -1213,23 +1213,23 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="403" trl="Y">
-  <value column="MsgText" original="Next Calendar Period not found">未找到下一日歷期間</value>
+  <value column="MsgText" original="Next Calendar Period not found">找不到下一個日曆期間</value>
   <value column="MsgTip" original="Please set up future Periods ">請建立未來的會計期間 </value>
  </row>
  <row id="404" trl="Y">
-  <value column="MsgText" original="Calendar Period not found">未找到日歷期間</value>
+  <value column="MsgText" original="Calendar Period not found">找不到日曆期間</value>
   <value column="MsgTip" original="Check setup of Calendar and Accounting Schema as well as Accounting Schema assignment to Tenant or Organization">檢查日歷設置和會計規則，同時檢查為實體和組織指定的會計規則</value>
  </row>
  <row id="405" trl="Y">
-  <value column="MsgText" original="No valid period for this accounting date.">沒有該會計日期的有效期間</value>
-  <value column="MsgTip" original="Check your calendar setup.">請檢查日歷設置</value>
+  <value column="MsgText" original="No valid period for this accounting date.">此會計日期無有效期間</value>
+  <value column="MsgTip" original="Check your calendar setup.">檢查您的日曆設置</value>
  </row>
  <row id="406" trl="Y">
   <value column="MsgText" original="Pie Chart">餅形圖</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="407" trl="Y">
-  <value column="MsgText" original="Document must be Complete or Closed to view Accounting">單據必須完成或關閉，以查看會計</value>
+  <value column="MsgText" original="Document must be Complete or Closed to view Accounting">文件必須完成或關閉才能查看會計資料</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="408" trl="Y">
@@ -1241,11 +1241,11 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="410" trl="Y">
-  <value column="MsgText" original="ZIP">郵編</value>
+  <value column="MsgText" original="ZIP">郵遞區號</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="411" trl="Y">
-  <value column="MsgText" original="ZIP+4">郵政地址</value>
+  <value column="MsgText" original="ZIP+4">郵遞區號+4</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="412" trl="Y">
