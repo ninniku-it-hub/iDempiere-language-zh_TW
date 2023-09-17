@@ -80,8 +80,8 @@
      <row id="109" trl="Y">
       <value column="Name" original="Language">語言</value>
       <value column="PrintName" original="Language">語言</value>
-      <value column="Description" original="Language for this entity">實體對象的語言。</value>
-      <value column="Help" original="The Language identifies the language to use for display and formatting">用於顯示和格式實體對象的語言。</value>
+      <value column="Description" original="Language for this entity">租戶對象的語言。</value>
+      <value column="Help" original="The Language identifies the language to use for display and formatting">用於顯示和格式租戶對象的語言。</value>
       <value column="PO_Description" original=""/>
       <value column="PO_Help" original=""/>
       <value column="PO_Name" original=""/>
@@ -113,7 +113,7 @@
      <row id="113" trl="Y">
       <value column="Name" original="Organization">組織</value>
       <value column="PrintName" original="Organization">組織</value>
-      <value column="Description" original="Organizational entity within tenant">實體內的組織</value>
+      <value column="Description" original="Organizational entity within tenant">租戶內的組織</value>
       <value column="Help" original="An organization is a unit of your tenant or legal entity - examples are store, department. You can share data between organizations."/>
       <value column="PO_Description" original=""/>
       <value column="PO_Help" original=""/>
@@ -1384,7 +1384,7 @@
 a) 常量：‘文本’或者123 <br />
 b) 變量：@變量@，變量比如#Date, #AD_Org_ID, $C_AcctSchema, DateFormat, 窗口變量等等<br />
 c) SQL代碼：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL語句可以包含變量 <br />
-缺省值只有在用戶偏好值為空時起效，如果列為主鍵、父鍵、實體或者按鈕，缺省值將忽略。]]></value>
+缺省值只有在用戶偏好值為空時起效，如果列為主鍵、父鍵、租戶或者按鈕，缺省值將忽略。]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -1873,7 +1873,7 @@ C any Letters & Digits or space converted to upper case<br />
  <row id="337" trl="Y">
   <value column="Name" original="Intercompany Due From Acct">內部應收</value>
   <value column="PrintName" original="Intercompany Due From Acct">內部應收</value>
-  <value column="Description" original="Intercompany Due From / Receivables Account">實體內部的應收賬款帳戶</value>
+  <value column="Description" original="Intercompany Due From / Receivables Account">租戶內部的應收賬款帳戶</value>
   <value column="Help" original="The Intercompany Due From account indicates the account that represents money owed to this organization from other organizations."/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -1884,7 +1884,7 @@ C any Letters & Digits or space converted to upper case<br />
  <row id="338" trl="Y">
   <value column="Name" original="Intercompany Due To Acct">內部應付</value>
   <value column="PrintName" original="Intercompany Due To Acct">內部應付</value>
-  <value column="Description" original="Intercompany Due To / Payable Account">實體內部交易的應付賬款賬戶</value>
+  <value column="Description" original="Intercompany Due To / Payable Account">租戶內部交易的應付賬款賬戶</value>
   <value column="Help" original="The Intercompany Due To Account indicates the account that represents money owed to other organizations."/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -2480,7 +2480,7 @@ PP_Order<br />
  <row id="417" trl="Y">
   <value column="Name" original="System Language">系統語言</value>
   <value column="PrintName" original="System Language">系統語言</value>
-  <value column="Description" original="The screens, etc. are maintained in this Language">用於顯示人機界面、單據或報表的語言。實體的多語種來源於“系統語言”，可在翻譯分頁維護</value>
+  <value column="Description" original="The screens, etc. are maintained in this Language">用於顯示人機界面、單據或報表的語言。租戶的多語種來源於“系統語言”，可在翻譯分頁維護</value>
   <value column="Help" original="Select, if you want to have translated screens available in this language.  Please notify your system administrator to run the language maintenance scripts to enable the use of this language.  If the language is not supplied, you can translate the terms yourself."/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -2854,7 +2854,7 @@ PP_Order<br />
  <row id="479" trl="Y">
   <value column="Name" original="Organization">組織</value>
   <value column="PrintName" original="Organization">組織</value>
-  <value column="Description" original="Organizational entity within tenant">實體內的組織</value>
+  <value column="Description" original="Organizational entity within tenant">租戶內的組織</value>
   <value column="Help" original="An organization is a unit of your tenant or legal entity - examples are store, department."/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -3962,7 +3962,7 @@ PP_Order<br />
  <row id="615" trl="Y">
   <value column="Name" original="User Level">用戶級別</value>
   <value column="PrintName" original="User Level">用戶級別</value>
-  <value column="Description" original="System Tenant Organization">系統實體組織</value>
+  <value column="Description" original="System Tenant Organization">系統租戶組織</value>
   <value column="Help" original="The User Level field determines if users of this Role will have access to System level data, Organization level data, Tenant level data or Tenant and Organization level data."/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -7762,7 +7762,7 @@ POS 支付：自定義的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="Name" original="Current Cost Price">當前成本價格</value>
   <value column="PrintName" original="Current Cost Price">當前成本價格</value>
   <value column="Description" original="The currently used cost price">當前賬套的成本價格。</value>
-  <value column="Help" original="">實體缺省賬套或者組織賬套下的成本要素價格</value>
+  <value column="Help" original="">租戶缺省賬套或者組織賬套下的成本要素價格</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -8981,7 +8981,7 @@ POS 支付：自定義的POS 支付方式，可在【POS 支付方式】窗口�
 a) 常量：‘文本’或者123 <br />
 b) 變量：@變量@，變量比如#Date, #AD_Org_ID, $C_AcctSchema, DateFormat, 窗口變量等等<br />
 c) SQL代碼：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL語句可以包含變量 <br />
-缺省值只有在用戶偏好值為空時起效，如果列為主鍵、父鍵、實體或者按鈕，缺省值將忽略。]]></value>
+缺省值只有在用戶偏好值為空時起效，如果列為主鍵、父鍵、租戶或者按鈕，缺省值將忽略。]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -10375,9 +10375,9 @@ c) SQL代碼：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL語句可以包�
   <value column="Placeholder" original=""/>
  </row>
  <row id="1682" trl="Y">
-  <value column="Name" original="Entity Type">實體類類型</value>
-  <value column="PrintName" original="Entity Type">實體類類型</value>
-  <value column="Description" original="Dictionary Entity Type; Determines ownership and synchronization">系統的實體類類型</value>
+  <value column="Name" original="Entity Type">實體類型</value>
+  <value column="PrintName" original="Entity Type">實體類型</value>
+  <value column="Description" original="Dictionary Entity Type; Determines ownership and synchronization">系統的租戶類類型</value>
   <value column="Help" original="The Entity Types &quot;Dictionary&quot;, &quot;iDempiere&quot; and &quot;Application&quot; might be automatically synchronized and customizations deleted or overwritten.  &#10;&#10;For customizations, copy the entity and select &quot;User&quot;!"/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -14618,9 +14618,9 @@ c) SQL代碼：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL語句可以包�
   <value column="Placeholder" original=""/>
  </row>
  <row id="2097" trl="Y">
-  <value column="Name" original="Tenant Key">實體編碼</value>
-  <value column="PrintName" original="Tenant Key">實體編碼</value>
-  <value column="Description" original="Key of the Tenant">實體的編碼，不可重覆</value>
+  <value column="Name" original="Tenant Key">租戶編碼</value>
+  <value column="PrintName" original="Tenant Key">租戶編碼</value>
+  <value column="Description" original="Key of the Tenant">租戶的編碼，不可重覆</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -14640,9 +14640,9 @@ c) SQL代碼：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL語句可以包�
   <value column="Placeholder" original=""/>
  </row>
  <row id="2099" trl="Y">
-  <value column="Name" original="Enforce Tenant Security">強制實體安全</value>
-  <value column="PrintName" original="Enforce Tenant Security">強制實體安全</value>
-  <value column="Description" original="Send alerts to recipient only if the tenant security rules of the role allows">僅當角色權限符合實體安全規則，才發送預警結果給接收人</value>
+  <value column="Name" original="Enforce Tenant Security">強制租戶安全</value>
+  <value column="PrintName" original="Enforce Tenant Security">強制租戶安全</value>
+  <value column="Description" original="Send alerts to recipient only if the tenant security rules of the role allows">僅當角色權限符合租戶安全規則，才發送預警結果給接收人</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -15251,9 +15251,9 @@ c) SQL代碼：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL語句可以包�
   <value column="Placeholder" original=""/>
  </row>
  <row id="2157" trl="Y">
-  <value column="Name" original="Remote Tenant">遠程實體</value>
-  <value column="PrintName" original="Remote Tenant">遠程實體</value>
-  <value column="Description" original="Remote Tenant to be used to replicate / synchronize data with.">用於覆制/同步數據的遠程實體</value>
+  <value column="Name" original="Remote Tenant">遠程租戶</value>
+  <value column="PrintName" original="Remote Tenant">遠程租戶</value>
+  <value column="Description" original="Remote Tenant to be used to replicate / synchronize data with.">用於覆制/同步數據的遠程租戶</value>
   <value column="Help" original="The remote tenant used for data replication."/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -18683,7 +18683,7 @@ c) SQL代碼：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL語句可以包�
  <row id="2489" trl="Y">
   <value column="Name" original="Maintain Statistics">維護統計</value>
   <value column="PrintName" original="Maintain Statistics">維護統計</value>
-  <value column="Description" original="Maintain general statistics">維護通用統計(實體、組織、業務夥伴、用戶、產品、發票的數量)</value>
+  <value column="Description" original="Maintain general statistics">維護通用統計(租戶、組織、業務夥伴、用戶、產品、發票的數量)</value>
   <value column="Help" original="Maintain and allow to transfer general statistics (number of tenants, orgs, business partners, users, products, invoices) to get a better feeling for the application use.  This information is not published."/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -19341,7 +19341,7 @@ c) SQL代碼：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL語句可以包�
  <row id="2554" trl="Y">
   <value column="Name" original="Beta Functionality">Beta功能</value>
   <value column="PrintName" original="Beta Functionality">Beta功能</value>
-  <value column="Description" original="This functionality is considered Beta">標識為未完全測試或者完成的功能，需實體“啟用beta功能”才可使用</value>
+  <value column="Description" original="This functionality is considered Beta">標識為未完全測試或者完成的功能，需租戶“啟用beta功能”才可使用</value>
   <value column="Help" original="Beta functionality is not fully tested or completed."/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -19702,7 +19702,7 @@ ARP：預收單或者未分配付款<br />【當前數據有點不準】]]></val
  <row id="2587" trl="Y">
   <value column="Name" original="Access all Orgs">訪問所有組織</value>
   <value column="PrintName" original="Access all Orgs">訪問所有組織</value>
-  <value column="Description" original="Access all Organizations (no org access control) of the tenant">訪問實體的所有組織 (沒有組織的訪問控制)</value>
+  <value column="Description" original="Access all Organizations (no org access control) of the tenant">訪問租戶的所有組織 (沒有組織的訪問控制)</value>
   <value column="Help" original="When selected, the role has access to all organizations of the tenant automatically. This also increases performance where you have many organizations."/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -19887,10 +19887,10 @@ ARP：預收單或者未分配付款<br />【當前數據有點不準】]]></val
   <value column="Placeholder" original=""/>
  </row>
  <row id="2604" trl="Y">
-  <value column="Name" original="Custom Prefix">實體對象前綴</value>
-  <value column="PrintName" original="Custom Prefix">實體對象前綴</value>
-  <value column="Description" original="Prefix for Custom entities">自定義實體對象的前綴。</value>
-  <value column="Help" original="The prefix listed are ignored as customization for database or entity migration">標識用戶自定義實體對象，當前僅用於日志輸出。</value>
+  <value column="Name" original="Custom Prefix">租戶對象前綴</value>
+  <value column="PrintName" original="Custom Prefix">租戶對象前綴</value>
+  <value column="Description" original="Prefix for Custom entities">自定義租戶對象的前綴。</value>
+  <value column="Help" original="The prefix listed are ignored as customization for database or entity migration">標識用戶自定義租戶對象，當前僅用於日志輸出。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -20382,7 +20382,7 @@ ARP：預收單或者未分配付款<br />【當前數據有點不準】]]></val
  <row id="2648" trl="Y">
   <value column="Name" original="Only Set Customization">僅自定義設置</value>
   <value column="PrintName" original="Only Set Customization">僅自定義設置</value>
-  <value column="Description" original="Set Customization for change records records with Dictionary Entity Type">字典實體類類型的記錄僅用於自定義設置【未使用】</value>
+  <value column="Description" original="Set Customization for change records records with Dictionary Entity Type">字典實體類型類類型的記錄僅用於自定義設置【未使用】</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -20460,7 +20460,7 @@ ARP：預收單或者未分配付款<br />【當前數據有點不準】]]></val
   <value column="Name" original="Preference Level">首選級別</value>
   <value column="PrintName" original="Preference Level">首選級別</value>
   <value column="Description" original="Determines what preferences the user can set">角色能夠設置首選值的層級。</value>
-  <value column="Help" original="Preferences allow you to define default values.  If set to None, you cannot set any preference nor value preference. Only if set to Tenant, you can see the Record Info Change Log.">首選值允許設置輸入項的缺省值。如果級別為“無”，角色將無法設置任何首選值。僅當“實體”級別，角色才可以看到記錄的變更日志。</value>
+  <value column="Help" original="Preferences allow you to define default values.  If set to None, you cannot set any preference nor value preference. Only if set to Tenant, you can see the Record Info Change Log.">首選值允許設置輸入項的缺省值。如果級別為“無”，角色將無法設置任何首選值。僅當“租戶”級別，角色才可以看到記錄的變更日志。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -21225,7 +21225,7 @@ BOM變更申請：暫時變更，永久變更，可選變更。<br />
  <row id="2730" trl="Y">
   <value column="Name" original="Web Store">網店</value>
   <value column="PrintName" original="Web Store">網店</value>
-  <value column="Description" original="A Web Store of the Tenant">此實體的網上商店</value>
+  <value column="Description" original="A Web Store of the Tenant">此租戶的網上商店</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -22243,7 +22243,7 @@ BOM變更申請：暫時變更，永久變更，可選變更。<br />
   <value column="Name" original="Only Organization">僅限組織</value>
   <value column="PrintName" original="Only Org">僅限組織</value>
   <value column="Description" original="Create posting entries only for this organization">僅為該組織創建過賬分錄。</value>
-  <value column="Help" original="When you have multiple accounting schema, you may want to restrict the generation of postings entries for the additional accounting schema (i.e. not for the primary).  Example: You have a US and a FR organization. The primary accounting schema is in USD, the second in EUR.  If for the EUR accounting schema, you select the FR organizations, you would not create accounting entries for the transactions of the US organization in EUR.">實體設置了所有組織的首選賬套，後續新建的賬套對實體內所有組織發生作用。如果設置僅限在某個組織，則新賬套只在該組織內產生分錄。</value>
+  <value column="Help" original="When you have multiple accounting schema, you may want to restrict the generation of postings entries for the additional accounting schema (i.e. not for the primary).  Example: You have a US and a FR organization. The primary accounting schema is in USD, the second in EUR.  If for the EUR accounting schema, you select the FR organizations, you would not create accounting entries for the transactions of the US organization in EUR.">租戶設置了所有組織的首選賬套，後續新建的賬套對租戶內所有組織發生作用。如果設置僅限在某個組織，則新賬套只在該組織內產生分錄。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -22856,9 +22856,9 @@ BOM變更申請：暫時變更，永久變更，可選變更。<br />
   <value column="Name" original="Share Type">共享類型</value>
   <value column="PrintName" original="Share Type">共享類型</value>
   <value column="Description" original="Type of sharing">數據共享的方式。</value>
-  <value column="Help" original="Defines if a table is shared within a tenant or not." xml:space="preserve"><![CDATA[實體：表示所有組織均可以訪問（記錄組織變成*組織）<br />
+  <value column="Help" original="Defines if a table is shared within a tenant or not." xml:space="preserve"><![CDATA[租戶：表示所有組織均可以訪問（記錄組織變成*組織）<br />
 組織：表示僅能在該組織訪問（不允許在*組織記錄，返回*組織記錄）<br />
-實體+組織：按 數據的實體ID和組織ID進行控制。]]></value>
+租戶+組織：按 數據的租戶ID和組織ID進行控制。]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -23000,7 +23000,7 @@ BOM變更申請：暫時變更，永久變更，可選變更。<br />
  <row id="2895" trl="Y">
   <value column="Name" original="Reproducible">問題重現</value>
   <value column="PrintName" original="Reproducible">問題重現</value>
-  <value column="Description" original="Problem can re reproduced in Gardenworld">是否可在Gardenworld實體內重現該問題</value>
+  <value column="Description" original="Problem can re reproduced in Gardenworld">是否可在Gardenworld租戶內重現該問題</value>
   <value column="Help" original="The problem occurs also in the standard distribution in the demo tenant Gardenworld."/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -23585,7 +23585,7 @@ BOM變更申請：暫時變更，永久變更，可選變更。<br />
   <value column="Name" original="Statistics">統計資訊</value>
   <value column="PrintName" original="Statistics">統計資訊</value>
   <value column="Description" original="Information to help profiling the system for solving support issues">幫助描述系統的資訊，用於解決支持請求。</value>
-  <value column="Help" original="Profile information do not contain sensitive information and are used to support issue detection and diagnostics as well as general anonymous statistics">代碼分別統計如下數量：實體、用戶、業務夥伴、產品、發票、發票明細、收發明細。</value>
+  <value column="Help" original="Profile information do not contain sensitive information and are used to support issue detection and diagnostics as well as general anonymous statistics">代碼分別統計如下數量：租戶、用戶、業務夥伴、產品、發票、發票明細、收發明細。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -24583,9 +24583,9 @@ BOM變更申請：暫時變更，永久變更，可選變更。<br />
   <value column="Placeholder" original=""/>
  </row>
  <row id="3052" trl="Y">
-  <value column="Name" original="Entity Type">實體類類型</value>
-  <value column="PrintName" original="Entity Type">實體類類型</value>
-  <value column="Description" original="System Entity Type">系統的實體類類型</value>
+  <value column="Name" original="Entity Type">實體類型</value>
+  <value column="PrintName" original="Entity Type">實體類型</value>
+  <value column="Description" original="System Entity Type">系統的實體類型</value>
   <value column="Help" original="The entity type determines the ownership of Application Dictionary entries.  The types &quot;Dictionary&quot; and &quot;iDempiere&quot; should not be used and are maintainted by iDempiere (i.e. all changes are reversed during migration to the current definition)."/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -25938,7 +25938,7 @@ BOM變更申請：暫時變更，永久變更，可選變更。<br />
  <row id="51002" trl="Y">
   <value column="Name" original="Lookup Tenant ID">郵編查詢用戶</value>
   <value column="PrintName" original="Lookup Tenant ID">郵編查詢用戶</value>
-  <value column="Description" original="The Client ID or Login submitted to the Lookup URL">提交到查詢網址的的實體ID或登錄名</value>
+  <value column="Description" original="The Client ID or Login submitted to the Lookup URL">提交到查詢網址的的租戶ID或登錄名</value>
   <value column="Help" original="Enter the Client ID or Login for your account provided by the post code web service provider"/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -26689,7 +26689,7 @@ BOM變更申請：暫時變更，永久變更，可選變更。<br />
  <row id="53229" trl="Y">
   <value column="Name" original="Configuration Level">配置級別</value>
   <value column="PrintName" original="Configuration Level for this parameter">配置級別</value>
-  <value column="Description" original="Configuration Level for this parameter">參數的作用級別。比如：S = 系統；C = 實體；O = 組織</value>
+  <value column="Description" original="Configuration Level for this parameter">參數的作用級別。比如：S = 系統；C = 租戶；O = 組織</value>
   <value column="Help" original="Configuration Level for this parameter&#10;S - just allowed system configuration&#10;C - tenant configurable parameter&#10;O - org configurable parameter"/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -27755,9 +27755,9 @@ BOM變更申請：暫時變更，永久變更，可選變更。<br />
   <value column="Placeholder" original=""/>
  </row>
  <row id="53330" trl="Y">
-  <value column="Name" original="Tenant Level">ASP 實體級別</value>
-  <value column="PrintName" original="Tenant Level">ASP 實體級別</value>
-  <value column="Description" original="">ASP 實體級別</value>
+  <value column="Name" original="Tenant Level">ASP 租戶級別</value>
+  <value column="PrintName" original="Tenant Level">ASP 租戶級別</value>
+  <value column="Description" original="">ASP 租戶級別</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -27766,9 +27766,9 @@ BOM變更申請：暫時變更，永久變更，可選變更。<br />
   <value column="Placeholder" original=""/>
  </row>
  <row id="53331" trl="Y">
-  <value column="Name" original="Tenant Exception">ASP 實體例外</value>
-  <value column="PrintName" original="Tenant Exception">ASP 實體例外</value>
-  <value column="Description" original="">ASP 實體例外</value>
+  <value column="Name" original="Tenant Exception">ASP 租戶例外</value>
+  <value column="PrintName" original="Tenant Exception">ASP 租戶例外</value>
+  <value column="Description" original="">ASP 租戶例外</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -44003,9 +44003,9 @@ BOM變更申請：暫時變更，永久變更，可選變更。<br />
   <value column="Placeholder" original=""/>
  </row>
  <row id="200252" trl="Y">
-  <value column="Name" original="Notification Tenant">通知實體</value>
-  <value column="PrintName" original="Notification Tenant">通知實體</value>
-  <value column="Description" original="Notification Tenant">通知實體</value>
+  <value column="Name" original="Notification Tenant">通知租戶</value>
+  <value column="PrintName" original="Notification Tenant">通知租戶</value>
+  <value column="Description" original="Notification Tenant">通知租戶</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -60273,9 +60273,9 @@ BOM變更申請：暫時變更，永久變更，可選變更。<br />
   <value column="Placeholder" original=""/>
  </row>
  <row id="202602" trl="Y">
-  <value column="Name" original="Source UUID">源實體UUID</value>
-  <value column="PrintName" original="Source UUID">源實體UUID</value>
-  <value column="Description" original="UUID from the source tenant">來源實體記錄的UUID</value>
+  <value column="Name" original="Source UUID">來源租戶UUID</value>
+  <value column="PrintName" original="Source UUID">來源租戶UUID</value>
+  <value column="Description" original="UUID from the source tenant">來源租戶記錄的UUID</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -60284,9 +60284,9 @@ BOM變更申請：暫時變更，永久變更，可選變更。<br />
   <value column="Placeholder" original=""/>
  </row>
  <row id="202603" trl="Y">
-  <value column="Name" original="Target UUID">目標實體UUID</value>
-  <value column="PrintName" original="Target UUID">目標實體UUID</value>
-  <value column="Description" original="New UUID created by the pack in tenant">目標實體匯入後創建的新UUID</value>
+  <value column="Name" original="Target UUID">目標租戶UUID</value>
+  <value column="PrintName" original="Target UUID">目標租戶UUID</value>
+  <value column="Description" original="New UUID created by the pack in tenant">目標租戶匯入後創建的新UUID</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -60438,9 +60438,9 @@ BOM變更申請：暫時變更，永久變更，可選變更。<br />
   <value column="Placeholder" original=""/>
  </row>
  <row id="202618" trl="Y">
-  <value column="Name" original="Export Dictionary Entity">導出實體類類型</value>
-  <value column="PrintName" original="Export Dictionary Entity">導出實體類類型</value>
-  <value column="Description" original="">是否導出自定義的實體類類型。</value>
+  <value column="Name" original="Export Dictionary Entity">導出實體類型</value>
+  <value column="PrintName" original="Export Dictionary Entity">導出實體類型</value>
+  <value column="Description" original="">是否導出自定義的實體類型。</value>
   <value column="Help" original="">勾選此項即可導出，無需自定義導出對象</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -61569,10 +61569,10 @@ C_OrderLine>Description]]></value>
   <value column="Placeholder" original=""/>
  </row>
  <row id="203019" trl="Y">
-  <value column="Name" original="Tenant of User">來源實體</value>
-  <value column="PrintName" original="Tenant of User">來源實體</value>
-  <value column="Description" original="">建議詞條的來源實體。</value>
-  <value column="Help" original="">來源實體</value>
+  <value column="Name" original="Tenant of User">來源租戶</value>
+  <value column="PrintName" original="Tenant of User">來源租戶</value>
+  <value column="Description" original="">建議詞條的來源租戶。</value>
+  <value column="Help" original="">來源租戶</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -61657,9 +61657,9 @@ C_OrderLine>Description]]></value>
   <value column="Placeholder" original=""/>
  </row>
  <row id="203028" trl="Y">
-  <value column="Name" original="Save As Tenant Customization">僅更新來源實體</value>
-  <value column="PrintName" original="Save As Tenant Customization">僅更新來源實體</value>
-  <value column="Description" original="Apply changes as tenant customization">僅更新建議來源實體，而不影響其他實體的詞條</value>
+  <value column="Name" original="Save As Tenant Customization">僅更新來源租戶</value>
+  <value column="PrintName" original="Save As Tenant Customization">僅更新來源租戶</value>
+  <value column="Description" original="Apply changes as tenant customization">僅更新建議來源租戶，而不影響其他租戶的詞條</value>
   <value column="Help" original="Changes is keep as tenant specific customization and wouldn't effect other tenants in the system"/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -61916,9 +61916,9 @@ C_OrderLine>Description]]></value>
   <value column="Placeholder" original=""/>
  </row>
  <row id="203119" trl="Y">
-  <value column="Name" original="Tenant (All)">所有實體</value>
-  <value column="PrintName" original="Tenant (All)">所有實體</value>
-  <value column="Description" original="">所有實體</value>
+  <value column="Name" original="Tenant (All)">所有租戶</value>
+  <value column="PrintName" original="Tenant (All)">所有租戶</value>
+  <value column="Description" original="">所有租戶</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
