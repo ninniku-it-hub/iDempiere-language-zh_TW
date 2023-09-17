@@ -1,192 +1,192 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!--iDempiere(r) Release 11_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_TW" table="AD_Element">
- <row id="101" trl="Y">
-  <value column="Name" original="Attachment">附件</value>
-  <value column="PrintName" original="Attachment">附件</value>
-  <value column="Description" original="Attachment for the document">單據的附件</value>
-  <value column="Help" original="Attachment can be of any document/file type and can be attached to any record in the system."/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
-  <value column="Placeholder" original=""/>
- </row>
- <row id="102" trl="Y">
-  <value column="Name" original="Tenant">租戶</value>
-  <value column="PrintName" original="Tenant">租戶</value>
-  <value column="Description" original="Tenant for this installation.">租戶</value>
-  <value column="Help" original="A Tenant is a company or a legal entity. You cannot share data between Tenants."/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
-  <value column="Placeholder" original=""/>
- </row>
- <row id="104" trl="Y">
-  <value column="Name" original="Column">資料庫列</value>
-  <value column="PrintName" original="Column">顯示名稱</value>
-  <value column="Description" original="Column in the table">描述</value>
-  <value column="Help" original="Link to the database column of the table"/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
-  <value column="Placeholder" original=""/>
- </row>
- <row id="105" trl="Y">
-  <value column="Name" original="Display column">顯示列</value>
-  <value column="PrintName" original="Display column">顯示列</value>
-  <value column="Description" original="Column that will display">引用後待顯示的列</value>
-  <value column="Help" original="The Display Column indicates the column that will display."/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
-  <value column="Placeholder" original=""/>
- </row>
- <row id="106" trl="Y">
-  <value column="Name" original="System Element">元素</value>
-  <value column="PrintName" original="Element">元素</value>
-  <value column="Description" original="System Element enables the central maintenance of column description and help.">維護系統級的字典元素。</value>
-  <value column="Help" original="The System Element allows for the central maintenance of help, descriptions and terminology for a database column.">資料庫欄位必須對應一個系統元素，從而使得元素可以集中維護界面欄位的詞條（名稱，描述，備註）。</value>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
-  <value column="Placeholder" original=""/>
- </row>
- <row id="107" trl="Y">
-  <value column="Name" original="Field">欄位</value>
-  <value column="PrintName" original="Field">欄位</value>
-  <value column="Description" original="Field on a database table">數據庫表上的欄位</value>
-  <value column="Help" original="The Field identifies a field on a database table."/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
-  <value column="Placeholder" original=""/>
- </row>
- <row id="108" trl="Y">
-  <value column="Name" original="Key column">主鍵列</value>
-  <value column="PrintName" original="Key column">主鍵列</value>
-  <value column="Description" original="Unique identifier of a record">記錄的唯一標識列</value>
-  <value column="Help" original="The Key Column indicates that this the unique identifier of a record on this table."/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
-  <value column="Placeholder" original=""/>
- </row>
- <row id="109" trl="Y">
-  <value column="Name" original="Language">語言</value>
-  <value column="PrintName" original="Language">語言</value>
-  <value column="Description" original="Language for this entity">實體對象的語言。</value>
-  <value column="Help" original="The Language identifies the language to use for display and formatting">用於顯示和格式實體對象的語言。</value>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
-  <value column="Placeholder" original=""/>
- </row>
- <row id="110" trl="Y">
-  <value column="Name" original="Menu">選單</value>
-  <value column="PrintName" original="Menu">選單</value>
-  <value column="Description" original="Identifies a Menu">標識一個選單</value>
-  <value column="Help" original="The Menu identifies a unique Menu.  Menus are used to control the display of those screens a user has access to."/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
-  <value column="Placeholder" original=""/>
- </row>
- <row id="112" trl="Y">
-  <value column="Name" original="Trx Organization">事務組織</value>
-  <value column="PrintName" original="Trx Organization">事務組織</value>
-  <value column="Description" original="Performing or initiating organization">集團內交易或者服務中心模型中，處理事務或者為其他組織提供事務的組織</value>
-  <value column="Help" original="The organization which performs or initiates this transaction (for another organization).  The owning Organization may not be the transaction organization in a service bureau environment, with centralized services, and inter-organization transactions."/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
-  <value column="Placeholder" original=""/>
- </row>
- <row id="113" trl="Y">
-  <value column="Name" original="Organization">組織</value>
-  <value column="PrintName" original="Organization">組織</value>
-  <value column="Description" original="Organizational entity within tenant">實體內的組織</value>
-  <value column="Help" original="An organization is a unit of your tenant or legal entity - examples are store, department. You can share data between organizations."/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
-  <value column="Placeholder" original=""/>
- </row>
- <row id="114" trl="Y">
-  <value column="Name" original="Process Instance">流程實例</value>
-  <value column="PrintName" original="Process Instance">流程實例</value>
-  <value column="Description" original="Instance of the process">流程的實例</value>
-  <value column="Help" original=""/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
-  <value column="Placeholder" original=""/>
- </row>
- <row id="116" trl="Y">
-  <value column="Name" original="Preference">偏好設定</value>
-  <value column="PrintName" original="Preference">偏好設定</value>
-  <value column="Description" original="Personal Value Preference">個人偏好設定</value>
-  <value column="Help" original=""/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
-  <value column="Placeholder" original=""/>
- </row>
- <row id="117" trl="Y">
-  <value column="Name" original="Process">流程</value>
-  <value column="PrintName" original="Process">流程</value>
-  <value column="Description" original="Process or Report">流程或報表</value>
-  <value column="Help" original="The Process field identifies a unique Process or Report in the system."/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
-  <value column="Placeholder" original=""/>
- </row>
- <row id="118" trl="Y">
-  <value column="Name" original="Process Parameter">流程參數</value>
-  <value column="PrintName" original="Process Parameter">流程參數</value>
-  <value column="Description" original="">流程參數</value>
-  <value column="Help" original=""/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
-  <value column="Placeholder" original=""/>
- </row>
- <row id="119" trl="Y">
-  <value column="Name" original="Reference List">列表項</value>
-  <value column="PrintName" original="Reference List">列表項</value>
-  <value column="Description" original="Reference List based on Table">引用列表的條目</value>
-  <value column="Help" original="The Reference List field indicates a list of reference values from a database tables.  Reference lists populate drop down list boxes in data entry screens"/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
-  <value column="Placeholder" original=""/>
- </row>
- <row id="120" trl="Y">
-  <value column="Name" original="Reference">引用</value>
-  <value column="PrintName" original="Reference">引用</value>
-  <value column="Description" original="System Reference and Validation">數據的引用方式，比如：數據類型、表數據、列表數據。</value>
-  <value column="Help" original="The Reference could be a display type, list or table validation."/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
-  <value column="Placeholder" original=""/>
- </row>
+    <row id="101" trl="Y">
+      <value column="Name" original="Attachment">附件</value>
+      <value column="PrintName" original="Attachment">附件</value>
+      <value column="Description" original="Attachment for the document">單據的附件</value>
+      <value column="Help" original="Attachment can be of any document/file type and can be attached to any record in the system."/>
+      <value column="PO_Description" original=""/>
+      <value column="PO_Help" original=""/>
+      <value column="PO_Name" original=""/>
+      <value column="PO_PrintName" original=""/>
+      <value column="Placeholder" original=""/>
+     </row>
+     <row id="102" trl="Y">
+      <value column="Name" original="Tenant">租戶</value>
+      <value column="PrintName" original="Tenant">租戶</value>
+      <value column="Description" original="Tenant for this installation.">租戶</value>
+      <value column="Help" original="A Tenant is a company or a legal entity. You cannot share data between Tenants."/>
+      <value column="PO_Description" original=""/>
+      <value column="PO_Help" original=""/>
+      <value column="PO_Name" original=""/>
+      <value column="PO_PrintName" original=""/>
+      <value column="Placeholder" original=""/>
+     </row>
+     <row id="104" trl="Y">
+      <value column="Name" original="Column">資料庫列</value>
+      <value column="PrintName" original="Column">顯示名稱</value>
+      <value column="Description" original="Column in the table">描述</value>
+      <value column="Help" original="Link to the database column of the table"/>
+      <value column="PO_Description" original=""/>
+      <value column="PO_Help" original=""/>
+      <value column="PO_Name" original=""/>
+      <value column="PO_PrintName" original=""/>
+      <value column="Placeholder" original=""/>
+     </row>
+     <row id="105" trl="Y">
+      <value column="Name" original="Display column">顯示列</value>
+      <value column="PrintName" original="Display column">顯示列</value>
+      <value column="Description" original="Column that will display">引用後待顯示的列</value>
+      <value column="Help" original="The Display Column indicates the column that will display."/>
+      <value column="PO_Description" original=""/>
+      <value column="PO_Help" original=""/>
+      <value column="PO_Name" original=""/>
+      <value column="PO_PrintName" original=""/>
+      <value column="Placeholder" original=""/>
+     </row>
+     <row id="106" trl="Y">
+      <value column="Name" original="System Element">元素</value>
+      <value column="PrintName" original="Element">元素</value>
+      <value column="Description" original="System Element enables the central maintenance of column description and help.">維護系統級的字典元素。</value>
+      <value column="Help" original="The System Element allows for the central maintenance of help, descriptions and terminology for a database column.">資料庫欄位必須對應一個系統元素，從而使得元素可以集中維護界面欄位的詞條（名稱，描述，備註）。</value>
+      <value column="PO_Description" original=""/>
+      <value column="PO_Help" original=""/>
+      <value column="PO_Name" original=""/>
+      <value column="PO_PrintName" original=""/>
+      <value column="Placeholder" original=""/>
+     </row>
+     <row id="107" trl="Y">
+      <value column="Name" original="Field">欄位</value>
+      <value column="PrintName" original="Field">欄位</value>
+      <value column="Description" original="Field on a database table">數據庫表上的欄位</value>
+      <value column="Help" original="The Field identifies a field on a database table."/>
+      <value column="PO_Description" original=""/>
+      <value column="PO_Help" original=""/>
+      <value column="PO_Name" original=""/>
+      <value column="PO_PrintName" original=""/>
+      <value column="Placeholder" original=""/>
+     </row>
+     <row id="108" trl="Y">
+      <value column="Name" original="Key column">主鍵列</value>
+      <value column="PrintName" original="Key column">主鍵列</value>
+      <value column="Description" original="Unique identifier of a record">記錄的唯一標識列</value>
+      <value column="Help" original="The Key Column indicates that this the unique identifier of a record on this table."/>
+      <value column="PO_Description" original=""/>
+      <value column="PO_Help" original=""/>
+      <value column="PO_Name" original=""/>
+      <value column="PO_PrintName" original=""/>
+      <value column="Placeholder" original=""/>
+     </row>
+     <row id="109" trl="Y">
+      <value column="Name" original="Language">語言</value>
+      <value column="PrintName" original="Language">語言</value>
+      <value column="Description" original="Language for this entity">實體對象的語言。</value>
+      <value column="Help" original="The Language identifies the language to use for display and formatting">用於顯示和格式實體對象的語言。</value>
+      <value column="PO_Description" original=""/>
+      <value column="PO_Help" original=""/>
+      <value column="PO_Name" original=""/>
+      <value column="PO_PrintName" original=""/>
+      <value column="Placeholder" original=""/>
+     </row>
+     <row id="110" trl="Y">
+      <value column="Name" original="Menu">選單</value>
+      <value column="PrintName" original="Menu">選單</value>
+      <value column="Description" original="Identifies a Menu">標識一個選單</value>
+      <value column="Help" original="The Menu identifies a unique Menu.  Menus are used to control the display of those screens a user has access to."/>
+      <value column="PO_Description" original=""/>
+      <value column="PO_Help" original=""/>
+      <value column="PO_Name" original=""/>
+      <value column="PO_PrintName" original=""/>
+      <value column="Placeholder" original=""/>
+     </row>
+     <row id="112" trl="Y">
+      <value column="Name" original="Trx Organization">事務組織</value>
+      <value column="PrintName" original="Trx Organization">事務組織</value>
+      <value column="Description" original="Performing or initiating organization">集團內交易或者服務中心模型中，處理事務或者為其他組織提供事務的組織</value>
+      <value column="Help" original="The organization which performs or initiates this transaction (for another organization).  The owning Organization may not be the transaction organization in a service bureau environment, with centralized services, and inter-organization transactions."/>
+      <value column="PO_Description" original=""/>
+      <value column="PO_Help" original=""/>
+      <value column="PO_Name" original=""/>
+      <value column="PO_PrintName" original=""/>
+      <value column="Placeholder" original=""/>
+     </row>
+     <row id="113" trl="Y">
+      <value column="Name" original="Organization">組織</value>
+      <value column="PrintName" original="Organization">組織</value>
+      <value column="Description" original="Organizational entity within tenant">實體內的組織</value>
+      <value column="Help" original="An organization is a unit of your tenant or legal entity - examples are store, department. You can share data between organizations."/>
+      <value column="PO_Description" original=""/>
+      <value column="PO_Help" original=""/>
+      <value column="PO_Name" original=""/>
+      <value column="PO_PrintName" original=""/>
+      <value column="Placeholder" original=""/>
+     </row>
+     <row id="114" trl="Y">
+      <value column="Name" original="Process Instance">流程實例</value>
+      <value column="PrintName" original="Process Instance">流程實例</value>
+      <value column="Description" original="Instance of the process">流程的實例</value>
+      <value column="Help" original=""/>
+      <value column="PO_Description" original=""/>
+      <value column="PO_Help" original=""/>
+      <value column="PO_Name" original=""/>
+      <value column="PO_PrintName" original=""/>
+      <value column="Placeholder" original=""/>
+     </row>
+     <row id="116" trl="Y">
+      <value column="Name" original="Preference">偏好設定</value>
+      <value column="PrintName" original="Preference">偏好設定</value>
+      <value column="Description" original="Personal Value Preference">個人偏好設定</value>
+      <value column="Help" original=""/>
+      <value column="PO_Description" original=""/>
+      <value column="PO_Help" original=""/>
+      <value column="PO_Name" original=""/>
+      <value column="PO_PrintName" original=""/>
+      <value column="Placeholder" original=""/>
+     </row>
+     <row id="117" trl="Y">
+      <value column="Name" original="Process">流程</value>
+      <value column="PrintName" original="Process">流程</value>
+      <value column="Description" original="Process or Report">流程或報表</value>
+      <value column="Help" original="The Process field identifies a unique Process or Report in the system."/>
+      <value column="PO_Description" original=""/>
+      <value column="PO_Help" original=""/>
+      <value column="PO_Name" original=""/>
+      <value column="PO_PrintName" original=""/>
+      <value column="Placeholder" original=""/>
+     </row>
+     <row id="118" trl="Y">
+      <value column="Name" original="Process Parameter">流程參數</value>
+      <value column="PrintName" original="Process Parameter">流程參數</value>
+      <value column="Description" original="">流程參數</value>
+      <value column="Help" original=""/>
+      <value column="PO_Description" original=""/>
+      <value column="PO_Help" original=""/>
+      <value column="PO_Name" original=""/>
+      <value column="PO_PrintName" original=""/>
+      <value column="Placeholder" original=""/>
+     </row>
+     <row id="119" trl="Y">
+      <value column="Name" original="Reference List">列表項</value>
+      <value column="PrintName" original="Reference List">列表項</value>
+      <value column="Description" original="Reference List based on Table">引用列表的條目</value>
+      <value column="Help" original="The Reference List field indicates a list of reference values from a database tables.  Reference lists populate drop down list boxes in data entry screens"/>
+      <value column="PO_Description" original=""/>
+      <value column="PO_Help" original=""/>
+      <value column="PO_Name" original=""/>
+      <value column="PO_PrintName" original=""/>
+      <value column="Placeholder" original=""/>
+     </row>
+     <row id="120" trl="Y">
+      <value column="Name" original="Reference">引用</value>
+      <value column="PrintName" original="Reference">引用</value>
+      <value column="Description" original="System Reference and Validation">數據的引用方式，比如：數據類型、表數據、列表數據。</value>
+      <value column="Help" original="The Reference could be a display type, list or table validation."/>
+      <value column="PO_Description" original=""/>
+      <value column="PO_Help" original=""/>
+      <value column="PO_Name" original=""/>
+      <value column="PO_PrintName" original=""/>
+      <value column="Placeholder" original=""/>
+     </row>
  <row id="121" trl="Y">
   <value column="Name" original="Reference Key">引用值</value>
   <value column="PrintName" original="Reference Key">引用值</value>
@@ -388,8 +388,8 @@
   <value column="Placeholder" original=""/>
  </row>
  <row id="143" trl="Y">
-  <value column="Name" original="Window">窗口</value>
-  <value column="PrintName" original="Window">窗口</value>
+  <value column="Name" original="Window">視窗</value>
+  <value column="PrintName" original="Window">視窗</value>
   <value column="Description" original="Data entry or display window">數據錄入或顯示的窗口</value>
   <value column="Help" original="The Window field identifies a unique Window in the system."/>
   <value column="PO_Description" original=""/>
