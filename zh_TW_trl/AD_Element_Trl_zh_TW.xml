@@ -490,7 +490,7 @@
   <value column="Name" original="Address 1">地址段 1</value>
   <value column="PrintName" original="Address 1">地址段 1</value>
   <value column="Description" original="Address line 1 for this location">地址的第1段，最小的具體位置，比如房間。</value>
-  <value column="Help" original="The Address 1 identifies the address for an entity's location" xml:space="preserve"><![CDATA[系統缺省地址 1是最小位置地址。比如，地址=行政區+街道+園區建築+樓層房間：
+  <value column="Help" original="The Address 1 identifies the address for an entity's location" xml:space="preserve"><![CDATA[系統預設地址 1是最小位置地址。比如，地址=行政區+街道+園區建築+樓層房間：
 使用所有地址段，地址 1 = 樓層房間。<br />
 使用2個地址段，地址1 =  樓層房間，地址2 = 行政區+街道+園區建築。<br />
 僅用1個地址段，則地址1 輸入所有地址資訊。]]></value>
@@ -779,7 +779,7 @@
   <value column="Name" original="Target Document Type">單據</value>
   <value column="PrintName" original="Target Doc Type">單據</value>
   <value column="Description" original="Target document type for conversing documents">指定匹配業務流程的單據子類型。</value>
-  <value column="Help" original="You can convert document types (e.g. from Offer to Order or Invoice).  The conversion is then reflected in the current type.  This processing is initiated by selecting the appropriate Document Action." xml:space="preserve"><![CDATA[子類型單據使用不同的自動業務邏輯。當前缺省有32種基礎單據類型，其中銷售訂單有9種子單據，庫存訂單有3種子單據。
+  <value column="Help" original="You can convert document types (e.g. from Offer to Order or Invoice).  The conversion is then reflected in the current type.  This processing is initiated by selecting the appropriate Document Action." xml:space="preserve"><![CDATA[子類型單據使用不同的自動業務邏輯。當前預設有32種基礎單據類型，其中銷售訂單有9種子單據，庫存訂單有3種子單據。
 <br />
 <br />銷售訂單子類型如下：<br />
 <br />報價方案：完成後，不預留庫存
@@ -1377,14 +1377,14 @@
   <value column="Placeholder" original=""/>
  </row>
  <row id="272" trl="Y">
-  <value column="Name" original="Default Logic">缺省值</value>
-  <value column="PrintName" original="Default Logic">缺省值</value>
-  <value column="Description" original="Default value hierarchy, separated by ;">以逗號“,”或分號“;”隔開的缺省值 。</value>
-  <value column="Help" original="The defaults are evaluated in the order of definition, the first not null value becomes the default value of the column. The values are separated by comma or semicolon. a) Literals:. 'Text' or 123 b) Variables - in format @Variable@ - Login e.g. #Date, #AD_Org_ID, #AD_Tenant_ID - Accounting Schema: e.g. $C_AcctSchema_ID, $C_Calendar_ID - Global defaults: e.g. DateFormat - Window values (all Picks, CheckBoxes, RadioButtons, and DateDoc/DateAcct) c) SQL code with the tag: @SQL=SELECT something AS DefaultValue FROM ... The SQL statement can contain variables.  There can be no other value other than the SQL statement. The default is only evaluated, if no user preference is defined.  Default definitions are ignored for record columns as Key, Parent, Tenant as well as Buttons." xml:space="preserve"><![CDATA[缺省值支持多級候選，直到符合第一個非空值。<br />
+  <value column="Name" original="Default Logic">預設值</value>
+  <value column="PrintName" original="Default Logic">預設值</value>
+  <value column="Description" original="Default value hierarchy, separated by ;">以逗號“,”或分號“;”隔開的預設值 。</value>
+  <value column="Help" original="The defaults are evaluated in the order of definition, the first not null value becomes the default value of the column. The values are separated by comma or semicolon. a) Literals:. 'Text' or 123 b) Variables - in format @Variable@ - Login e.g. #Date, #AD_Org_ID, #AD_Tenant_ID - Accounting Schema: e.g. $C_AcctSchema_ID, $C_Calendar_ID - Global defaults: e.g. DateFormat - Window values (all Picks, CheckBoxes, RadioButtons, and DateDoc/DateAcct) c) SQL code with the tag: @SQL=SELECT something AS DefaultValue FROM ... The SQL statement can contain variables.  There can be no other value other than the SQL statement. The default is only evaluated, if no user preference is defined.  Default definitions are ignored for record columns as Key, Parent, Tenant as well as Buttons." xml:space="preserve"><![CDATA[預設值支持多級候選，直到符合第一個非空值。<br />
 a) 常量：‘文本’或者123 <br />
 b) 變量：@變量@，變量比如#Date, #AD_Org_ID, $C_AcctSchema, DateFormat, 窗口變量等等<br />
 c) SQL代碼：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL語句可以包含變量 <br />
-缺省值只有在用戶偏好值為空時起效，如果列為主鍵、父鍵、租戶或者按鈕，缺省值將忽略。]]></value>
+預設值只有在用戶偏好值為空時起效，如果列為主鍵、父鍵、租戶或者按鈕，預設值將忽略。]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2613,7 +2613,7 @@ PP_Order<br />
   <value column="Name" original="Line No">行號</value>
   <value column="PrintName" original="Line No">行號</value>
   <value column="Description" original="Unique line for this document">單據的行號。</value>
-  <value column="Help" original="Indicates the unique line for a document.  It will also control the display order of the lines within a document.">單據行的唯一標識，可以控制明細行的顯示順序。缺省以10遞增，可手工修改任意數字。</value>
+  <value column="Help" original="Indicates the unique line for a document.  It will also control the display order of the lines within a document.">單據行的唯一標識，可以控制明細行的顯示順序。預設以10遞增，可手工修改任意數字。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3141,7 +3141,7 @@ PP_Order<br />
   <value column="Name" original="Unit Price">產品單價</value>
   <value column="PrintName" original="Unit Price">產品單價</value>
   <value column="Description" original="Actual Price ">根據單據單位轉換後的產品實際單價。</value>
-  <value column="Help" original="The Actual or Unit Price indicates the Price for a product in source currency.">取自產品價格表（缺省計量單位）的標準價，如果用戶使用其他計量單位，該價格等於輸入價格的轉換結果。</value>
+  <value column="Help" original="The Actual or Unit Price indicates the Price for a product in source currency.">取自產品價格表（預設計量單位）的標準價，如果用戶使用其他計量單位，該價格等於輸入價格的轉換結果。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5216,7 +5216,7 @@ POS訂單：完成後，自動生成發貨單、發票、收款單<br />]]></val
  <row id="1039" trl="Y">
   <value column="Name" original="Movement Type">事務類型</value>
   <value column="PrintName" original="Movement Type">事務類型</value>
-  <value column="Description" original="Method of moving the inventory">缺省的五種出入庫事務。</value>
+  <value column="Description" original="Method of moving the inventory">預設的五種出入庫事務。</value>
   <value column="Help" original="The Movement Type indicates the type of movement (in, out, to production, etc)" xml:space="preserve"><![CDATA[1、收貨單、發貨單<br />
 2、移庫單<br />
 3、庫存調整單（盤庫、內部領用）<br />
@@ -5409,7 +5409,7 @@ POS訂單：完成後，自動生成發貨單、發票、收款單<br />]]></val
   <value column="Name" original="Price includes Tax">含稅價</value>
   <value column="PrintName" original="Price includes Tax">含稅價</value>
   <value column="Description" original="Tax is included in the price ">價格已包含了產品預設稅率的稅額。</value>
-  <value column="Help" original="The Tax Included checkbox indicates if the prices include tax.  This is also known as the gross price." xml:space="preserve"><![CDATA[價格稅額由產品稅種的缺省稅目決定。比如：<br />
+  <value column="Help" original="The Tax Included checkbox indicates if the prices include tax.  This is also known as the gross price." xml:space="preserve"><![CDATA[價格稅額由產品稅種的預設稅目決定。比如：<br />
 產品稅種 = VAT ， 該稅種下預設稅目 = 16%，該價格表的含稅價表示含16%的價格，其中<br /> 
 含稅價=100，凈價=86.21，稅額=13.79 <br />
 如果該含稅價格，在單據中應用為其他稅率（按11點），則新價格的計算公式為：<br />
@@ -5752,9 +5752,9 @@ B. 含稅價=96.12，凈價=86.59，11%稅額=9.53 <br />
   <value column="Placeholder" original=""/>
  </row>
  <row id="1103" trl="Y">
-  <value column="Name" original="Default">缺省值</value>
-  <value column="PrintName" original="Default">缺省值</value>
-  <value column="Description" original="Default value">缺省值</value>
+  <value column="Name" original="Default">預設值</value>
+  <value column="PrintName" original="Default">預設值</value>
+  <value column="Description" original="Default value">預設值</value>
   <value column="Help" original="The Default Checkbox indicates if this record will be used as a default value."/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -6124,7 +6124,7 @@ B. 含稅價=96.12，凈價=86.59，11%稅額=9.53 <br />
   <value column="Name" original="Payment Rule">支付規則</value>
   <value column="PrintName" original="Payment Rule">支付規則</value>
   <value column="Description" original="How you pay the invoice">交易可能存在的所有支付規則，最後生成支付單的支付方式（Tender Type）。</value>
-  <value column="Help" original="The Payment Rule indicates the method of invoice payment." xml:space="preserve"><![CDATA[【註意】支付規則僅在業務夥伴、訂單，發票中定義，而支付方式（Tender Type）僅在支付單中定義，且隱藏了支付規則的“混合支付”和“賒銷交易”。系統缺省的支付規則如下：<br />
+  <value column="Help" original="The Payment Rule indicates the method of invoice payment." xml:space="preserve"><![CDATA[【註意】支付規則僅在業務夥伴、訂單，發票中定義，而支付方式（Tender Type）僅在支付單中定義，且隱藏了支付規則的“混合支付”和“賒銷交易”。系統預設的支付規則如下：<br />
 現金：紙質或者電子現金<br />
 信用卡：商業信用卡類型，在業務夥伴銀行賬戶中設置<br />
 POS 支付：自定義的POS 支付方式，可在【POS 支付方式】窗口中設置<br />
@@ -7762,7 +7762,7 @@ POS 支付：自定義的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="Name" original="Current Cost Price">當前成本價格</value>
   <value column="PrintName" original="Current Cost Price">當前成本價格</value>
   <value column="Description" original="The currently used cost price">當前賬套的成本價格。</value>
-  <value column="Help" original="">租戶缺省賬套或者組織賬套下的成本要素價格</value>
+  <value column="Help" original="">租戶預設賬套或者組織賬套下的成本要素價格</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -8750,7 +8750,7 @@ POS 支付：自定義的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="Name" original="Due type">到期類型</value>
   <value column="PrintName" original="Due type">到期類型</value>
   <value column="Description" original="Status of the next action for this Request">定義請求的到期類型，將觸發不同的通知流程。</value>
-  <value column="Help" original="The Due Type indicates if this request is Due, Overdue or Scheduled." xml:space="preserve"><![CDATA[系統缺省是到期，表示當前時間與請求的下次行動時間（請求時間）的比較結果。請求時間缺省為空，可以由發起者或接收者輸入。一旦輸入，系統自動判斷到期結果。<br /> 
+  <value column="Help" original="The Due Type indicates if this request is Due, Overdue or Scheduled." xml:space="preserve"><![CDATA[系統預設是到期，表示當前時間與請求的下次行動時間（請求時間）的比較結果。請求時間預設為空，可以由發起者或接收者輸入。一旦輸入，系統自動判斷到期結果。<br /> 
 計劃中：表示當前時間未到下次時間，系統無提醒。
 到期：達到“請求時間”，請求為到期，系統開始提醒。
 過期：達到“請求時間+寬限時間”，請求為過期，系統開始提醒。<br />
@@ -8974,14 +8974,14 @@ POS 支付：自定義的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="Placeholder" original=""/>
  </row>
  <row id="1529" trl="Y">
-  <value column="Name" original="Default Logic 2">缺省值 2</value>
-  <value column="PrintName" original="Default Logic 2">缺省值 2</value>
-  <value column="Description" original="Default value hierarchy, separated by ;">以逗號“,”或分號“;”隔開的缺省值 。</value>
-  <value column="Help" original="The defaults are evaluated in the order of definition, the first not null value becomes the default value of the column. The values are separated by comma or semicolon. a) Literals:. 'Text' or 123 b) Variables - in format @Variable@ - Login e.g. #Date, #AD_Org_ID, #AD_Tenant_ID - Accounting Schema: e.g. $C_AcctSchema_ID, $C_Calendar_ID - Global defaults: e.g. DateFormat - Window values (all Picks, CheckBoxes, RadioButtons, and DateDoc/DateAcct) c) SQL code with the tag: @SQL=SELECT something AS DefaultValue FROM ... The SQL statement can contain variables.  There can be no other value other than the SQL statement. The default is only evaluated, if no user preference is defined.  Default definitions are ignored for record columns as Key, Parent, Tenant as well as Buttons." xml:space="preserve"><![CDATA[缺省值支持多級候選，直到符合第一個非空值。<br />
+  <value column="Name" original="Default Logic 2">預設值 2</value>
+  <value column="PrintName" original="Default Logic 2">預設值 2</value>
+  <value column="Description" original="Default value hierarchy, separated by ;">以逗號“,”或分號“;”隔開的預設值 。</value>
+  <value column="Help" original="The defaults are evaluated in the order of definition, the first not null value becomes the default value of the column. The values are separated by comma or semicolon. a) Literals:. 'Text' or 123 b) Variables - in format @Variable@ - Login e.g. #Date, #AD_Org_ID, #AD_Tenant_ID - Accounting Schema: e.g. $C_AcctSchema_ID, $C_Calendar_ID - Global defaults: e.g. DateFormat - Window values (all Picks, CheckBoxes, RadioButtons, and DateDoc/DateAcct) c) SQL code with the tag: @SQL=SELECT something AS DefaultValue FROM ... The SQL statement can contain variables.  There can be no other value other than the SQL statement. The default is only evaluated, if no user preference is defined.  Default definitions are ignored for record columns as Key, Parent, Tenant as well as Buttons." xml:space="preserve"><![CDATA[預設值支持多級候選，直到符合第一個非空值。<br />
 a) 常量：‘文本’或者123 <br />
 b) 變量：@變量@，變量比如#Date, #AD_Org_ID, $C_AcctSchema, DateFormat, 窗口變量等等<br />
 c) SQL代碼：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL語句可以包含變量 <br />
-缺省值只有在用戶偏好值為空時起效，如果列為主鍵、父鍵、租戶或者按鈕，缺省值將忽略。]]></value>
+預設值只有在用戶偏好值為空時起效，如果列為主鍵、父鍵、租戶或者按鈕，預設值將忽略。]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -9596,7 +9596,7 @@ c) SQL代碼：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL語句可以包�
  <row id="1599" trl="Y">
   <value column="Name" original="Sql SELECT">SELECT子句</value>
   <value column="PrintName" original="Select Clause">SELECT子句</value>
-  <value column="Description" original="SQL SELECT clause">SQL語句，按照缺省值修改。</value>
+  <value column="Description" original="SQL SELECT clause">SQL語句，按照預設值修改。</value>
   <value column="Help" original="The Select Clause indicates the SQL SELECT clause to use for selecting the record for a measure calculation. Do not include the SELECT itself.">SQL語句，語法格式：SELECT 列名[ ,列名|...] FROM 表名</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -12669,9 +12669,9 @@ c) SQL代碼：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL語句可以包�
   <value column="Placeholder" original=""/>
  </row>
  <row id="1908" trl="Y">
-  <value column="Name" original="Default Account">缺省賬戶</value>
-  <value column="PrintName" original="Default Account">缺省賬戶</value>
-  <value column="Description" original="Name of the Default Account Column">缺省賬戶列的名稱</value>
+  <value column="Name" original="Default Account">預設賬戶</value>
+  <value column="PrintName" original="Default Account">預設賬戶</value>
+  <value column="Description" original="Name of the Default Account Column">預設賬戶列的名稱</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -12845,9 +12845,9 @@ c) SQL代碼：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL語句可以包�
   <value column="Placeholder" original=""/>
  </row>
  <row id="1926" trl="Y">
-  <value column="Name" original="Update Default Accounts">更新缺省賬戶</value>
-  <value column="PrintName" original="Update Default Accounts">更新缺省賬戶</value>
-  <value column="Description" original="Update Default Accounts">更新缺省賬戶</value>
+  <value column="Name" original="Update Default Accounts">更新預設賬戶</value>
+  <value column="PrintName" original="Update Default Accounts">更新預設賬戶</value>
+  <value column="Description" original="Update Default Accounts">更新預設賬戶</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -13530,7 +13530,7 @@ c) SQL代碼：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL語句可以包�
   <value column="Name" original="Web Parameter 1">Web 參數 1</value>
   <value column="PrintName" original="Web Param 1">Web 參數 1</value>
   <value column="Description" original="Web Site Parameter 1 (default: header image)">網站參數 1。</value>
-  <value column="Help" original="The parameter could be used in the JSP page for variables like logos, passwords, URLs or entire HTML blocks. The access is via ctx.webParam1 - By default, it is positioned on the upper left side with 130 pixel width.">比如logo，密碼框，網址或者HTML塊。系統缺省通過 ctx.webParam1 訪問，位於左上角，寬度130px。</value>
+  <value column="Help" original="The parameter could be used in the JSP page for variables like logos, passwords, URLs or entire HTML blocks. The access is via ctx.webParam1 - By default, it is positioned on the upper left side with 130 pixel width.">比如logo，密碼框，網址或者HTML塊。系統預設通過 ctx.webParam1 訪問，位於左上角，寬度130px。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -13541,7 +13541,7 @@ c) SQL代碼：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL語句可以包�
   <value column="Name" original="Web Parameter 2">Web 參數 2</value>
   <value column="PrintName" original="Web Param 2">Web 參數 2</value>
   <value column="Description" original="Web Site Parameter 2 (default index page)">網站參數 2。</value>
-  <value column="Help" original="The parameter could be used in the JSP page for variables like logos, passwords, URLs or entire HTML blocks. The access is via ctx.webParam2 - By default, it is positioned after the header on the web store index page.">比如logo，密碼框，網址或者HTML塊。系統缺省通過 ctx.webParam2 訪問，位於網店首頁的頭部下方。</value>
+  <value column="Help" original="The parameter could be used in the JSP page for variables like logos, passwords, URLs or entire HTML blocks. The access is via ctx.webParam2 - By default, it is positioned after the header on the web store index page.">比如logo，密碼框，網址或者HTML塊。系統預設通過 ctx.webParam2 訪問，位於網店首頁的頭部下方。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -13552,7 +13552,7 @@ c) SQL代碼：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL語句可以包�
   <value column="Name" original="Web Parameter 3">Web 參數 3</value>
   <value column="PrintName" original="Web Param 3">Web 參數 3</value>
   <value column="Description" original="Web Site Parameter 3 (default left - menu)">網站參數 3。</value>
-  <value column="Help" original="The parameter could be used in the JSP page for variables like logos, passwords, URLs or entire HTML blocks. The access is via ctx.webParam3 - By default, it is positioned at the end in the menu column with 130 pixel width.">比如logo，密碼框，網址或者HTML塊。系統缺省通過 ctx.webParam3 訪問，位於選單列末尾，寬度130px。</value>
+  <value column="Help" original="The parameter could be used in the JSP page for variables like logos, passwords, URLs or entire HTML blocks. The access is via ctx.webParam3 - By default, it is positioned at the end in the menu column with 130 pixel width.">比如logo，密碼框，網址或者HTML塊。系統預設通過 ctx.webParam3 訪問，位於選單列末尾，寬度130px。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -13563,7 +13563,7 @@ c) SQL代碼：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL語句可以包�
   <value column="Name" original="Web Parameter 4">Web 參數 4</value>
   <value column="PrintName" original="Web Param 4">Web 參數 4</value>
   <value column="Description" original="Web Site Parameter 4 (default footer left)">網站參數 4。</value>
-  <value column="Help" original="The parameter could be used in the JSP page for variables like logos, passwords, URLs or entire HTML blocks. The access is via ctx.webParam4 - By default, it is positioned on the left side of the footer with 130 pixel width.">比如logo，密碼框，網址或者HTML塊。系統缺省通過 ctx.webParam4 訪問，位於頁腳左側，寬度130px。</value>
+  <value column="Help" original="The parameter could be used in the JSP page for variables like logos, passwords, URLs or entire HTML blocks. The access is via ctx.webParam4 - By default, it is positioned on the left side of the footer with 130 pixel width.">比如logo，密碼框，網址或者HTML塊。系統預設通過 ctx.webParam4 訪問，位於頁腳左側，寬度130px。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -14026,7 +14026,7 @@ c) SQL代碼：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL語句可以包�
   <value column="Name" original="Invoice Partner">發票夥伴</value>
   <value column="PrintName" original="Invoice Partner">發票夥伴</value>
   <value column="Description" original="Business Partner to be invoiced">待開發票的業務夥伴。</value>
-  <value column="Help" original="If empty the shipment business partner will be invoiced">缺省與業務夥伴一致，可選擇其他的業務夥伴。如果為空，收貨/發貨夥伴將被用於開票夥伴。</value>
+  <value column="Help" original="If empty the shipment business partner will be invoiced">預設與業務夥伴一致，可選擇其他的業務夥伴。如果為空，收貨/發貨夥伴將被用於開票夥伴。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -14159,7 +14159,7 @@ c) SQL代碼：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL語句可以包�
   <value column="Name" original="Printer Name">列印機</value>
   <value column="PrintName" original="Printer Name">列印機</value>
   <value column="Description" original="Name of the Printer">操作系統的列印機名稱。</value>
-  <value column="Help" original="Internal (Operating System) Name of the Printer; Please mote that the printer name may be different on different tenants. Enter a printer name, which applies to ALL tenants (e.g. printer on a server). &lt;p&gt;&#10;If none is entered, the default printer is used. You specify your default printer when you log in. You can also change the default printer in Preferences.">WEB端使用瀏覽器的缺省列印機。</value>
+  <value column="Help" original="Internal (Operating System) Name of the Printer; Please mote that the printer name may be different on different tenants. Enter a printer name, which applies to ALL tenants (e.g. printer on a server). &lt;p&gt;&#10;If none is entered, the default printer is used. You specify your default printer when you log in. You can also change the default printer in Preferences.">WEB端使用瀏覽器的預設列印機。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -17929,9 +17929,9 @@ c) SQL代碼：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL語句可以包�
   <value column="Placeholder" original=""/>
  </row>
  <row id="2419" trl="Y">
-  <value column="Name" original="Default Parameter">缺省參數</value>
-  <value column="PrintName" original="Default Parameter">缺省參數</value>
-  <value column="Description" original="Default value of the parameter">參數的缺省缺省值</value>
+  <value column="Name" original="Default Parameter">預設參數</value>
+  <value column="PrintName" original="Default Parameter">預設參數</value>
+  <value column="Description" original="Default value of the parameter">參數的預設預設值</value>
   <value column="Help" original="The default value can be a variable like @#Date@ "/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -18716,8 +18716,8 @@ c) SQL代碼：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL語句可以包�
  <row id="2493" trl="Y">
   <value column="Name" original="Counter Document">反向定義</value>
   <value column="PrintName" original="Counter Document">反向定義</value>
-  <value column="Description" original="Counter Document Relationship">定義“反向單據”，可覆蓋系統缺省反向關系，並指定反向單據的單據動作（預設創建草稿）。</value>
-  <value column="Help" original="When using explicit documents for inter-org transaction (after linking a Business Partner to an Organization), you can determine what document type the counter document is based on the document type of the original transaction.  Example: a &quot;Standard Order&quot; creates a &quot;Standard PO&quot;. &#10;If you define a relationship here, you overwrite the default counter document type in the Document Type definition. This allows you to define a specific mapping." xml:space="preserve"><![CDATA[組織間事務可以通過反向關系自動生成（顯式的）的業務單據。系統缺省的反向單據在“單據類型”定義是否開啟，如果自定義的單據類型需要啟用指定的反向單據，此處可定義映射並可覆蓋缺省反向關系。<br />
+  <value column="Description" original="Counter Document Relationship">定義“反向單據”，可覆蓋系統預設反向關系，並指定反向單據的單據動作（預設創建草稿）。</value>
+  <value column="Help" original="When using explicit documents for inter-org transaction (after linking a Business Partner to an Organization), you can determine what document type the counter document is based on the document type of the original transaction.  Example: a &quot;Standard Order&quot; creates a &quot;Standard PO&quot;. &#10;If you define a relationship here, you overwrite the default counter document type in the Document Type definition. This allows you to define a specific mapping." xml:space="preserve"><![CDATA[組織間事務可以通過反向關系自動生成（顯式的）的業務單據。系統預設的反向單據在“單據類型”定義是否開啟，如果自定義的單據類型需要啟用指定的反向單據，此處可定義映射並可覆蓋預設反向關系。<br />
 5組基礎單據類型自帶的反向關系：<br />
 採購訂單 <--> 銷售訂單<br />
 收貨單    <-->   發貨單<br />
@@ -18985,10 +18985,10 @@ c) SQL代碼：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL語句可以包�
   <value column="Placeholder" original=""/>
  </row>
  <row id="2517" trl="Y">
-  <value column="Name" original="Default Counter Document">缺省反向單據</value>
-  <value column="PrintName" original="Default Counter Doc">缺省反向單據</value>
-  <value column="Description" original="The document type is the default counter document type">基礎單據類型的“缺省反向單據”類型，如果未設置，將取第一條單據類型。</value>
-  <value column="Help" original="When using explicit documents for inter-org transaction (after linking a Business Partner to an Organization), you can determine what document type the counter document is based on the document type of the original transaction.  Example: when generating a Sales Order, use this Sales Order document type.&#10;This default can be overwritten by defining explicit counter document relationships." xml:space="preserve"><![CDATA[該缺省值會被顯示反向單據關系定義所覆蓋。<br />
+  <value column="Name" original="Default Counter Document">預設反向單據</value>
+  <value column="PrintName" original="Default Counter Doc">預設反向單據</value>
+  <value column="Description" original="The document type is the default counter document type">基礎單據類型的“預設反向單據”類型，如果未設置，將取第一條單據類型。</value>
+  <value column="Help" original="When using explicit documents for inter-org transaction (after linking a Business Partner to an Organization), you can determine what document type the counter document is based on the document type of the original transaction.  Example: when generating a Sales Order, use this Sales Order document type.&#10;This default can be overwritten by defining explicit counter document relationships." xml:space="preserve"><![CDATA[該預設值會被顯示反向單據關系定義所覆蓋。<br />
 5組基礎單據類型自帶的反向關系：<br />
 採購訂單 <--> 銷售訂單<br />
 收貨單    <-->   發貨單<br />
@@ -19191,7 +19191,7 @@ c) SQL代碼：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL語句可以包�
  <row id="2539" trl="Y">
   <value column="Name" original="Price Invoiced">發票價格</value>
   <value column="PrintName" original="Price Invoiced">發票價格</value>
-  <value column="Description" original="The priced invoiced to the customer (in the currency of the customer's AR price list) - 0 for default price">給客戶的開票價格，以銷售價格表貨幣表示，可被覆寫。0 表示缺省客戶發票價格。</value>
+  <value column="Description" original="The priced invoiced to the customer (in the currency of the customer's AR price list) - 0 for default price">給客戶的開票價格，以銷售價格表貨幣表示，可被覆寫。0 表示預設客戶發票價格。</value>
   <value column="Help" original="The invoiced price is derived from the Invoice Price entered and can be overwritten.  If the price is 0, the default price on the customer's invoice is used."/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -19257,8 +19257,8 @@ c) SQL代碼：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL語句可以包�
  <row id="2545" trl="Y">
   <value column="Name" original="Create Counter Document">生成反向單據</value>
   <value column="PrintName" original="Create Counter">生成反向單據</value>
-  <value column="Description" original="Create Counter Document">生成該基礎單據類型的缺省反向單據，否則不生成反向單據。</value>
-  <value column="Help" original="If selected, create specified counter document.  If not selected, no counter document is created for the document type." xml:space="preserve"><![CDATA[5組基礎單據類型缺省的反向關系：<br />
+  <value column="Description" original="Create Counter Document">生成該基礎單據類型的預設反向單據，否則不生成反向單據。</value>
+  <value column="Help" original="If selected, create specified counter document.  If not selected, no counter document is created for the document type." xml:space="preserve"><![CDATA[5組基礎單據類型預設的反向關系：<br />
 採購訂單 <--> 銷售訂單<br />
 收貨單    <-->   發貨單<br />
 採購發票 <-->  銷售發票<br />
@@ -19374,7 +19374,7 @@ c) SQL代碼：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL語句可以包�
  <row id="2557" trl="Y">
   <value column="Name" original="Default Print Color">列印顏色</value>
   <value column="PrintName" original="Default Print Color">列印顏色</value>
-  <value column="Description" original="">缺省的列印顏色</value>
+  <value column="Description" original="">預設的列印顏色</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -19385,7 +19385,7 @@ c) SQL代碼：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL語句可以包�
  <row id="2558" trl="Y">
   <value column="Name" original="Default Print Font">列印字體</value>
   <value column="PrintName" original="Default Print Font">列印字體</value>
-  <value column="Description" original="">缺省的列印字體</value>
+  <value column="Description" original="">預設的列印字體</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -20460,7 +20460,7 @@ ARP：預收單或者未分配付款<br />【當前數據有點不準】]]></val
   <value column="Name" original="Preference Level">首選級別</value>
   <value column="PrintName" original="Preference Level">首選級別</value>
   <value column="Description" original="Determines what preferences the user can set">角色能夠設置首選值的層級。</value>
-  <value column="Help" original="Preferences allow you to define default values.  If set to None, you cannot set any preference nor value preference. Only if set to Tenant, you can see the Record Info Change Log.">首選值允許設置輸入項的缺省值。如果級別為“無”，角色將無法設置任何首選值。僅當“租戶”級別，角色才可以看到記錄的變更日志。</value>
+  <value column="Help" original="Preferences allow you to define default values.  If set to None, you cannot set any preference nor value preference. Only if set to Tenant, you can see the Record Info Change Log.">首選值允許設置輸入項的預設值。如果級別為“無”，角色將無法設置任何首選值。僅當“租戶”級別，角色才可以看到記錄的變更日志。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -21159,7 +21159,7 @@ BOM變更申請：暫時變更，永久變更，可選變更。<br />
  <row id="2724" trl="Y">
   <value column="Name" original="Auto Due Date Days">自動到期天數</value>
   <value column="PrintName" original="Auto Due Date Days">自動到期天數</value>
-  <value column="Description" original="Automatic Due Date Days">自動到期天數（缺省到期天數）。</value>
+  <value column="Description" original="Automatic Due Date Days">自動到期天數（預設到期天數）。</value>
   <value column="Help" original="If a due date is not defined and the Auto Due Days ins greater then zero, a due date in the number of days is automatically created." xml:space="preserve"><![CDATA[如果請求不指定到期日期，且輸入的自動到期天數大於0，到期日期將被自動創建。<br />比如：5+2的請求類型，5天自動到期，2天寬限，超過7天算過期。<br />自動到期天數=0，系統不自動判斷過期。]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -22231,7 +22231,7 @@ BOM變更申請：暫時變更，永久變更，可選變更。<br />
  <row id="2824" trl="Y">
   <value column="Name" original="Copy Overwrite">覆制覆蓋</value>
   <value column="PrintName" original="Copy Overwrite">覆制覆蓋</value>
-  <value column="Description" original="Copy and Overwrite Default Accounts (DANGEROUS!!)">覆制並覆蓋缺省賬戶 (危險！！)</value>
+  <value column="Description" original="Copy and Overwrite Default Accounts (DANGEROUS!!)">覆制並覆蓋預設賬戶 (危險！！)</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -22558,7 +22558,7 @@ BOM變更申請：暫時變更，永久變更，可選變更。<br />
  <row id="2853" trl="Y">
   <value column="Name" original="Confirm Query Records">確認查詢數</value>
   <value column="PrintName" original="Confirm Query Records">確認查詢數</value>
-  <value column="Description" original="Require Confirmation if more records will be returned by the query (If not defined 500)">如果查詢返回的記錄數太多，需要確認 (如未定義，缺省為 500)</value>
+  <value column="Description" original="Require Confirmation if more records will be returned by the query (If not defined 500)">如果查詢返回的記錄數太多，需要確認 (如未定義，預設為 500)</value>
   <value column="Help" original="Enter the number of records the query will return without confirmation to avoid unnecessary system load.  If 0, the system default of 500 is used."/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -22580,7 +22580,7 @@ BOM變更申請：暫時變更，永久變更，可選變更。<br />
  <row id="2856" trl="Y">
   <value column="Name" original="Ser No Char Start Overwrite">流水號前綴</value>
   <value column="PrintName" original="Ser No Char Start">流水號前綴</value>
-  <value column="Description" original="Serial Number Start Indicator overwrite - default #">字符串中流水號的前綴，缺省是#</value>
+  <value column="Description" original="Serial Number Start Indicator overwrite - default #">字符串中流水號的前綴，預設是#</value>
   <value column="Help" original="If not defined, the default character # is used"/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -22591,7 +22591,7 @@ BOM變更申請：暫時變更，永久變更，可選變更。<br />
  <row id="2857" trl="Y">
   <value column="Name" original="Ser No Char End Overwrite">流水號後綴</value>
   <value column="PrintName" original="Ser No Char End">流水號後綴</value>
-  <value column="Description" original="Serial Number End Indicator overwrite - default empty">字符串中流水號的後綴，缺省是空</value>
+  <value column="Description" original="Serial Number End Indicator overwrite - default empty">字符串中流水號的後綴，預設是空</value>
   <value column="Help" original="If not defined, no character is used"/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -22602,7 +22602,7 @@ BOM變更申請：暫時變更，永久變更，可選變更。<br />
  <row id="2858" trl="Y">
   <value column="Name" original="Lot Char Start Overwrite">批號前綴</value>
   <value column="PrintName" original="Lot Char Start">批號前綴</value>
-  <value column="Description" original="Lot/Batch Start Indicator overwrite - default «">字符串中批號的前綴，缺省是 «</value>
+  <value column="Description" original="Lot/Batch Start Indicator overwrite - default «">字符串中批號的前綴，預設是 «</value>
   <value column="Help" original="If not defined, the default character « is used"/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -22613,7 +22613,7 @@ BOM變更申請：暫時變更，永久變更，可選變更。<br />
  <row id="2859" trl="Y">
   <value column="Name" original="Lot Char End Overwrite">批號後綴</value>
   <value column="PrintName" original="Lot Char End">批號後綴</value>
-  <value column="Description" original="Lot/Batch End Indicator overwrite - default »">字符串中批號的後綴，缺省是»</value>
+  <value column="Description" original="Lot/Batch End Indicator overwrite - default »">字符串中批號的後綴，預設是»</value>
   <value column="Help" original="If not defined, the default character » is used"/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -22701,7 +22701,7 @@ BOM變更申請：暫時變更，永久變更，可選變更。<br />
  <row id="2868" trl="Y">
   <value column="Name" original="Reporting Hierarchy">報表層級</value>
   <value column="PrintName" original="Hierarchy">報表層級</value>
-  <value column="Description" original="Optional Reporting Hierarchy - If not selected the default hierarchy trees are used.">可選的報表層級。如果未選擇，則使用缺省的層級樹</value>
+  <value column="Description" original="Optional Reporting Hierarchy - If not selected the default hierarchy trees are used.">可選的報表層級。如果未選擇，則使用預設的層級樹</value>
   <value column="Help" original="Reporting Hierarchy allows you to select different Hierarchies/Trees for the report.&#10;Accounting Segments like Organization, Account, Product may have several hierarchies to accomodate different views on the business."/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -24597,7 +24597,7 @@ BOM變更申請：暫時變更，永久變更，可選變更。<br />
   <value column="Name" original="Model Package">模塊包</value>
   <value column="PrintName" original="Model Package">模塊包</value>
   <value column="Description" original="Java Package of the model classes">模型類的 Java 包。</value>
-  <value column="Help" original="By default, the Java model classes for extensions are in the compiere.model package.  If you provide a jar file in the classpath, you can define here your specific model package.  The model classes are used to save/modify/delete entries and as well as in Workflow.  Refer to the Compiere naming convention to make sure that your class is used rather then the base classes.">缺省，model類位於compiere包內，但是可以自定義model的jar包。</value>
+  <value column="Help" original="By default, the Java model classes for extensions are in the compiere.model package.  If you provide a jar file in the classpath, you can define here your specific model package.  The model classes are used to save/modify/delete entries and as well as in Workflow.  Refer to the Compiere naming convention to make sure that your class is used rather then the base classes.">預設，model類位於compiere包內，但是可以自定義model的jar包。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -25014,8 +25014,8 @@ BOM變更申請：暫時變更，永久變更，可選變更。<br />
  <row id="3091" trl="Y">
   <value column="Name" original="Set Payment Term">更新支付條款</value>
   <value column="PrintName" original="Set Payment Term">更新支付條款</value>
-  <value column="Description" original="Set the payment term of the Business Partner">是否更新業務夥伴的缺省支付條款。</value>
-  <value column="Help" original="If a dunning letter of this level is created, the payment term of this business partner is overwritten.">對業務夥伴的缺省支付條款進行覆蓋更新，通常是更嚴格的支付條款。</value>
+  <value column="Description" original="Set the payment term of the Business Partner">是否更新業務夥伴的預設支付條款。</value>
+  <value column="Help" original="If a dunning letter of this level is created, the payment term of this business partner is overwritten.">對業務夥伴的預設支付條款進行覆蓋更新，通常是更嚴格的支付條款。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -26356,7 +26356,7 @@ BOM變更申請：暫時變更，永久變更，可選變更。<br />
  <row id="52034" trl="Y">
   <value column="Name" original="Cash BPartner">現金交易夥伴</value>
   <value column="PrintName" original="Cash BPartner">現金交易夥伴</value>
-  <value column="Description" original="BPartner to be used for Cash transactions">零用現金的缺省其他費用</value>
+  <value column="Description" original="BPartner to be used for Cash transactions">零用現金的預設其他費用</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -27810,8 +27810,8 @@ BOM變更申請：暫時變更，永久變更，可選變更。<br />
   <value column="Placeholder" original=""/>
  </row>
  <row id="53336" trl="Y">
-  <value column="Name" original="Collapsed By Default">缺省折疊</value>
-  <value column="PrintName" original="Collapsed By Default">缺省折疊</value>
+  <value column="Name" original="Collapsed By Default">預設折疊</value>
+  <value column="PrintName" original="Collapsed By Default">預設折疊</value>
   <value column="Description" original="Flag to set the initial state of collapsible field group.">是否折疊該項目。</value>
   <value column="Help" original="">是否折疊該項目，比如欄位組、儀表盤內容</value>
   <value column="PO_Description" original=""/>
@@ -27933,7 +27933,7 @@ BOM變更申請：暫時變更，永久變更，可選變更。<br />
  <row id="53348" trl="Y">
   <value column="Name" original="Order By Value">按編碼排序</value>
   <value column="PrintName" original="Order By Value">按編碼排序</value>
-  <value column="Description" original="Order list using the value column instead of the name column">按引用值編碼排序，而不是缺省按名稱排序</value>
+  <value column="Description" original="Order list using the value column instead of the name column">按引用值編碼排序，而不是預設按名稱排序</value>
   <value column="Help" original="Order list using the value column instead of the name column"/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -50691,9 +50691,9 @@ BOM變更申請：暫時變更，永久變更，可選變更。<br />
   <value column="Placeholder" original=""/>
  </row>
  <row id="201239" trl="Y">
-  <value column="Name" original="c_tax_isdefault">稅目_缺省值</value>
-  <value column="PrintName" original="c_tax_isdefault">稅目_缺省值</value>
-  <value column="Description" original="">稅目_缺省值</value>
+  <value column="Name" original="c_tax_isdefault">稅目_預設值</value>
+  <value column="PrintName" original="c_tax_isdefault">稅目_預設值</value>
+  <value column="Description" original="">稅目_預設值</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -53034,9 +53034,9 @@ BOM變更申請：暫時變更，永久變更，可選變更。<br />
   <value column="Placeholder" original=""/>
  </row>
  <row id="201591" trl="Y">
-  <value column="Name" original="c_uom_isdefault">單位_缺省值</value>
-  <value column="PrintName" original="c_uom_isdefault">單位_缺省值</value>
-  <value column="Description" original="">單位_缺省值</value>
+  <value column="Name" original="c_uom_isdefault">單位_預設值</value>
+  <value column="PrintName" original="c_uom_isdefault">單位_預設值</value>
+  <value column="Description" original="">單位_預設值</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -59085,9 +59085,9 @@ BOM變更申請：暫時變更，永久變更，可選變更。<br />
   <value column="Placeholder" original=""/>
  </row>
  <row id="202249" trl="Y">
-  <value column="Name" original="Default 1099 Box">缺省1099箱</value>
-  <value column="PrintName" original="Default 1099 Box">缺省1099箱</value>
-  <value column="Description" original="">缺省1099箱</value>
+  <value column="Name" original="Default 1099 Box">預設1099箱</value>
+  <value column="PrintName" original="Default 1099 Box">預設1099箱</value>
+  <value column="Description" original="">預設1099箱</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -59976,9 +59976,9 @@ BOM變更申請：暫時變更，永久變更，可選變更。<br />
   <value column="Placeholder" original=""/>
  </row>
  <row id="202572" trl="Y">
-  <value column="Name" original="Default Focus">缺省光標</value>
-  <value column="PrintName" original="Default Focus">缺省光標</value>
-  <value column="Description" original="">缺省光標</value>
+  <value column="Name" original="Default Focus">預設光標</value>
+  <value column="PrintName" original="Default Focus">預設光標</value>
+  <value column="Description" original="">預設光標</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -60375,7 +60375,7 @@ BOM變更申請：暫時變更，永久變更，可選變更。<br />
   <value column="Name" original="Title Logic">標題邏輯</value>
   <value column="PrintName" original="Title Logic">標題邏輯</value>
   <value column="Description" original="The result determines the title to be displayed for this window">定義了窗口標題的顯示內容，支持@變量@。</value>
-  <value column="Help" original="The result determines the title to be displayed for this Window, used also as the label for Recent Items.&#10;Format is just one or several context variables surrounded by @, examples:&#10;&lt;ul&gt;&#10;&lt;li&gt; @TaxID@&lt;/li&gt;&#10;&lt;li&gt; @DocumentNo@&lt;/li&gt;&#10;&lt;li&gt; @Value@ @Name@&lt;/li&gt;&#10;&lt;/ul&gt;&#10;if this field is left empty a default title/label is created using the DocumentNo, Value and Name fields if they exist.">如果空，缺省標題為“單號，編碼，名稱”（如果窗口分頁包含該欄位）。</value>
+  <value column="Help" original="The result determines the title to be displayed for this Window, used also as the label for Recent Items.&#10;Format is just one or several context variables surrounded by @, examples:&#10;&lt;ul&gt;&#10;&lt;li&gt; @TaxID@&lt;/li&gt;&#10;&lt;li&gt; @DocumentNo@&lt;/li&gt;&#10;&lt;li&gt; @Value@ @Name@&lt;/li&gt;&#10;&lt;/ul&gt;&#10;if this field is left empty a default title/label is created using the DocumentNo, Value and Name fields if they exist.">如果空，預設標題為“單號，編碼，名稱”（如果窗口分頁包含該欄位）。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -60460,9 +60460,9 @@ BOM變更申請：暫時變更，永久變更，可選變更。<br />
   <value column="Placeholder" original=""/>
  </row>
  <row id="202621" trl="Y">
-  <value column="Name" original="Default To Parameter">缺省參數值</value>
-  <value column="PrintName" original="Default To Parameter">缺省參數值</value>
-  <value column="Description" original="Default value of the to parameter">缺省參數值</value>
+  <value column="Name" original="Default To Parameter">預設參數值</value>
+  <value column="PrintName" original="Default To Parameter">預設參數值</value>
+  <value column="Description" original="Default value of the to parameter">預設參數值</value>
   <value column="Help" original="The default value can be a variable like @#Date@ "/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -60839,9 +60839,9 @@ BOM變更申請：暫時變更，永久變更，可選變更。<br />
   <value column="Placeholder" original=""/>
  </row>
  <row id="202698" trl="Y">
-  <value column="Name" original="Default mail template">缺省郵件模板</value>
-  <value column="PrintName" original="Default mail template">缺省郵件模板</value>
-  <value column="Description" original="">缺省郵件模板</value>
+  <value column="Name" original="Default mail template">預設郵件模板</value>
+  <value column="PrintName" original="Default mail template">預設郵件模板</value>
+  <value column="Description" original="">預設郵件模板</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -61373,7 +61373,7 @@ C_OrderLine>Description]]></value>
  <row id="202897" trl="Y">
   <value column="Name" original="Load Page Num">按頁查詢</value>
   <value column="PrintName" original="Load Page Num">按頁查詢</value>
-  <value column="Description" original="When load data for info window, also load number of paging">只查詢缺省頁數的記錄</value>
+  <value column="Description" original="When load data for info window, also load number of paging">只查詢預設頁數的記錄</value>
   <value column="Help" original="Load number of paging maybe affect to performance when info window is join of many table"/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>

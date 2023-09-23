@@ -7693,7 +7693,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200750" trl="N">
-  <value column="MsgText" original="Run it again with new parameters">Run it again with new parameters</value>
+  <value column="MsgText" original="Run it again with new parameters">使用新的參數再次查詢</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200752" trl="N">
